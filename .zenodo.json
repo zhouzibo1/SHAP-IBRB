@@ -1,0 +1,57 @@
+{
+  "title": "SHAP-guided IBRB reproducibility materials",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "<p>Code and computational records accompanying <em>A hybrid interpretable risk assessment method for lung cancer integrating SHAP with a supervised interval belief rule base</em>.</p><p>The package contains the analysis, reconstruction, retraining and acquisition code together with the frozen configurations, evaluation split membership, fitted models, per-fold predictions, statistical summaries and the numerical values underlying the figures and tables.</p><p>The original 5,000-record benchmark uses two repetitions of stratified five-fold evaluation, with SHAP and IBRB sharing a designated 1,000-record fitting subset of the outer training pool. The independent NLST analysis uses 6,996 baseline-CT patients (5,200 development, 1,796 confirmation).</p><p>Project-authored code is licensed under MIT. Author-created figures, explanatory text and aggregate analytical summaries are licensed under CC BY 4.0. The NLST public clinical subset is redistributed under CC BY 4.0 with the attribution and modification notices in THIRD_PARTY_NOTICES.md. Source attribution, licensing and the documented changes for each dataset are recorded in DATA_AVAILABILITY.md and THIRD_PARTY_NOTICES.md.</p><p>Numerical reconstruction is reproducible from the archived materials; the frozen-model check restores 10 original-benchmark and 11 NLST primary models and verifies 220 original-benchmark model/fold conditions and nine NLST confirmation conditions.</p>",
+  "creators": [
+    {
+      "name": "Li, Shaohua",
+      "affiliation": "School of Innovation and Entrepreneurship, Dalian University of Foreign Languages, Dalian, China; School of Software, Dalian University of Foreign Languages, Dalian, China"
+    },
+    {
+      "name": "Guan, Tianshu",
+      "affiliation": "School of Software, Dalian University of Foreign Languages, Dalian, China"
+    },
+    {
+      "name": "Zhou, Zibo",
+      "affiliation": "School of Software, Dalian University of Foreign Languages, Dalian, China"
+    },
+    {
+      "name": "Liu, Dongkun",
+      "affiliation": "School of Software, Dalian University of Foreign Languages, Dalian, China"
+    },
+    {
+      "name": "Feng, Jingying",
+      "affiliation": "School of Cybersecurity, Liaoning Police Academy, Dalian, China"
+    },
+    {
+      "name": "Qi, Ruihua",
+      "affiliation": "School of Software, Dalian University of Foreign Languages, Dalian, China"
+    },
+    {
+      "name": "He, Wei",
+      "affiliation": "School of Computer Science and Information Engineering, Harbin Normal University, Harbin, China"
+    }
+  ],
+  "keywords": [
+    "belief rule base",
+    "evidential reasoning",
+    "SHAP",
+    "lung cancer prediction",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/zhouzibo1/SHAP-IBRB",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.7937/TCIA.HMQ8-J677",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

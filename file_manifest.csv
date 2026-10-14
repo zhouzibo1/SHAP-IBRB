@@ -1,6 +1,7 @@
 path,bytes,format
 .gitattributes,460,
 .gitignore,214,
+.zenodo.json,3145,json
 acquire_data.py,5159,py
 AUTHORS.md,903,md
 build_nlst_cohort.py,7252,py
