@@ -45,13 +45,16 @@ See [full training instructions](全流程运行说明.md), [baseline and acquis
 | `src/` and Python entry points | Analysis, reconstruction, retraining and acquisition code |
 | `config/`, `selection/` | Exact split membership and training choices |
 | `data/` | Processed inputs; source-specific rights are in DATA_AVAILABILITY.md |
-| `models/`, `predictions/`, `results/` | Frozen models, original predictions and results |
+| `models/`, `predictions/` | Frozen models and per-fold predictions |
+| `results/` | NLST cohort summary tables: per-model metrics, paired statistics, patient usage |
 | `tables/`, `source_data/` | Tables and numerical source values |
 | `*_source_mapping.csv` | Relative mappings between artifacts and numerical sources |
 | `validation/` | Saved reconstruction and representative training checks |
 | `provenance/`, `docs/` | Source and methodological records |
 
 `file_manifest.csv` lists every published file with its byte size and format. It cannot list itself, because its own size is part of its content.
+
+Numerical sources are held once, under `source_data/`. The analysis and reconstruction scripts read the original-benchmark predictions, the per-fold metrics and the NLST confirmation metrics from there, so those tables are not duplicated elsewhere. `results/` keeps three NLST summary tables that have no counterpart under `source_data/`; they are published as cohort summaries, not as a second copy of a source table.
 
 Historical source records may refer to the original development workspace; executable configurations use paths relative to this package. Figure and table labels will be aligned with the consolidated revised manuscript before the paper-linked archive version is finalized.
 

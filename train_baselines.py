@@ -104,7 +104,7 @@ def original_stage(e,out,families,inputs):
     pd.DataFrame(inner).to_csv(folder/'inner_search.csv',index=False)
     # Final prediction evaluation starts after all requested baseline fits for this stage.
     write(folder/'all_fits_ready.json',dict(models=len(fitted),evaluation_started=False))
-    saved=pd.read_csv(ROOT/'results/original/22配置原始外层预测.csv',float_precision='round_trip')
+    saved=pd.read_csv(ROOT/'source_data/predictions/补实验/最终基线统一比较_20261007/22配置原始外层预测.csv',float_precision='round_trip')
     records=[]
     for item in fitted:
         c=item['columns'];family=item['family'];m=item['model']

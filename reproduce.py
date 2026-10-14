@@ -42,8 +42,8 @@ def transform(frame,prep):
 
 def run(out):
     out.mkdir(parents=True,exist_ok=True)
-    pred=pd.read_csv(ROOT/'results/original/22配置原始外层预测.csv',float_precision='round_trip')
-    ref=pd.read_csv(ROOT/'results/original/22配置逐折指标.csv',float_precision='round_trip')
+    pred=pd.read_csv(ROOT/'source_data/predictions/补实验/最终基线统一比较_20261007/22配置原始外层预测.csv',float_precision='round_trip')
+    ref=pd.read_csv(ROOT/'source_data/statistics/补实验/最终基线统一比较_20261007/22配置逐折指标.csv',float_precision='round_trip')
     rows=[]
     for (model,repeat,fold),g in pred.groupby(['model','repeat','fold']):
         row=metrics(g.y_true,g.score)
@@ -84,7 +84,7 @@ def run(out):
         error=float(np.max(np.abs(p-saved.score)));errors.append(error)
         modelrows.append(dict(task='nlst',stage=e['stage'],max_error=error,**metrics(frame.label_365d,p)))
     assert not development&confirmation
-    nref=pd.read_csv(ROOT/'results/nlst/最终确认集指标.csv',float_precision='round_trip')
+    nref=pd.read_csv(ROOT/'source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/最终确认集指标.csv',float_precision='round_trip')
     for f in (ROOT/'predictions/nlst_confirmation_all').glob('*.csv'):
         model=f.name.removesuffix('_evaluation_预测.csv');g=pd.read_csv(f,float_precision='round_trip')
         compare(metrics(g.y_true,g.score),nref[nref.model==model].iloc[0])
