@@ -4,6 +4,6 @@ code_licence,completed,MIT; LICENSE
 generated_material_licence,completed_for_author_created_outputs,CC-BY-4.0; THIRD_PARTY_NOTICES.md
 NLST_public_clinical_rights,completed,CC-BY-4.0; attribution and changes supplied
 ethics_statement,updated_from_verified_sources_and_author_confirmation,DATA_AVAILABILITY.md
-repository_url,pending_repository_creation,insert actual GitHub URL
-version_DOI,pending_archive_publication,insert actual version DOI
+repository_url,completed,https://github.com/zhouzibo1/SHAP-IBRB
+version_DOI,pending_archive_publication,insert actual version DOI after Zenodo archiving
 manuscript_figure_table_alignment,pending_manuscript_consolidation,align final numbering before paper-linked archive release

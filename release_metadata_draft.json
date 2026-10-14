@@ -1,7 +1,7 @@
 {
   "title": "SHAP-guided IBRB reproducibility materials",
   "version": "1.0.0",
-  "status": "local materials; publication metadata and licensing updated",
+  "status": "published on GitHub; archive metadata and licensing updated",
   "target_journal": "PLOS ONE",
   "proposed_code_repository": "GitHub",
   "proposed_fixed_archive": "Zenodo",
@@ -75,7 +75,7 @@
   "third_party_rights_confirmation": {
     "NLST_public_clinical": "CC-BY-4.0 verified at TCIA; attribution and changes supplied"
   },
-  "repository_url": null,
+  "repository_url": "https://github.com/zhouzibo1/SHAP-IBRB",
   "archive_DOI": null,
   "description": "Frozen configurations, split members, fitted models, raw predictions, source values and reconstruction code for original benchmark and patient-level NLST analyses.",
   "keywords": [
@@ -85,7 +85,7 @@
     "lung cancer prediction",
     "reproducibility"
   ],
-  "published": false,
+  "published": true,
   "manuscript_modified": false,
   "ethics_statement": "NLST secondary analysis: no additional approval required under applicable institutional policy confirmed by authors; source trial approval and consent documented"
 }

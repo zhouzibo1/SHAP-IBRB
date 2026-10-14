@@ -2,7 +2,7 @@
 
 ## Code and computational records
 
-The package includes analysis code, dependency versions, frozen configurations, split membership, fitted models, original predictions, statistical summaries and numerical figure/table sources. Code is licensed under MIT; data and output licensing are described in THIRD_PARTY_NOTICES.md. Repository URL and version-specific archive DOI will be inserted after the corresponding records are created. No public deposit is claimed in this local package.
+The package includes analysis code, dependency versions, frozen configurations, split membership, fitted models, original predictions, statistical summaries and numerical figure/table sources. Code is licensed under MIT; data and output licensing are described in THIRD_PARTY_NOTICES.md. The materials are published at https://github.com/zhouzibo1/SHAP-IBRB ; the version-specific archive DOI will be inserted once the corresponding Zenodo record is created.
 
 ## Original benchmark
 

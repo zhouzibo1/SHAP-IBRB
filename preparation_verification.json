@@ -5,11 +5,11 @@
   "checked_mapped_paths": 146,
   "all_mapped_files_exist": true,
   "compiled_source_modules": true,
-  "files_in_manifest": 492,
+  "files_in_manifest": 490,
   "figures_published": false,
-  "published": false,
+  "published": true,
   "permanent_identifiers_assigned": false,
-  "author_metadata_and_rights_pending": true,
+  "author_metadata_and_rights_pending": false,
   "manuscript_modified": false,
   "figure_source_mapping": 27,
   "figure_renders_distributed": false,
@@ -33,7 +33,6 @@
   "code_license": "MIT",
   "nlst_license": "CC-BY-4.0",
   "remaining_publication_fields": [
-    "repository URL",
     "archive DOI",
     "final manuscript numbering"
   ]

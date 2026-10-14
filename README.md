@@ -51,6 +51,8 @@ See [full training instructions](全流程运行说明.md), [baseline and acquis
 | `validation/` | Saved reconstruction and representative training checks |
 | `provenance/`, `docs/` | Source and methodological records |
 
+`file_manifest.csv` lists every published file with its byte size and format. It cannot list itself, because its own size is part of its content.
+
 Historical source records may refer to the original development workspace; executable configurations use paths relative to this package. Figure and table labels will be aligned with the consolidated revised manuscript before the paper-linked archive version is finalized.
 
 Rendered figure files are not distributed through this repository. The entries in `figure_source_mapping.csv` keep the figure identifiers and source-value paths, without render paths; their `pdf`, `svg` and `png` columns record the relative path expected inside the authoring package. Requests for rendered figures should be directed to the corresponding author.
@@ -62,4 +64,4 @@ Rendered figure files are not distributed through this repository. The entries i
 - NLST public clinical subset: CC BY 4.0 with the attribution and modification notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 - Original benchmark: source description and access instructions in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
 
-[CITATION.cff](CITATION.cff) contains software authorship. Repository and archive identifiers will be added after creation. The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .
+[CITATION.cff](CITATION.cff) contains software authorship. The repository is published at https://github.com/zhouzibo1/SHAP-IBRB ; the archived version DOI will be added once the corresponding Zenodo record exists. The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .
