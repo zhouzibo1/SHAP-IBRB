@@ -1,6 +1,8 @@
-﻿path,bytes,format
+path,bytes,format
 acquire_data.py,5159,py
+AUTHORS.md,903,md
 build_nlst_cohort.py,7252,py
+CITATION.cff,1443,cff
 config/baseline_reference.json,46893,json
 config/final_protocol.json,903,json
 config/nlst_models.json,480987,json
@@ -8,8 +10,9 @@ config/original_inner_reference.json,511692,json
 config/original_models.json,260233,json
 data/nlst.csv,287169,csv
 data/original.csv,350290,csv
-data_availability_inventory.csv,1262,csv
-Data_Code_Availability_候选.md,2901,md
+DATA_AVAILABILITY.md,3460,md
+data_availability_inventory.csv,1395,csv
+Data_Code_Availability_候选.md,144,md
 docs/analysis_data_metadata.json,444,json
 docs/nlst_schema.csv,568,csv
 docs/original_schema.csv,867,csv
@@ -98,6 +101,7 @@ figures/Original_repeat1/confusion-01.svg,16515,svg
 figures/Original_repeat2/confusion-01.pdf,33132,pdf
 figures/Original_repeat2/confusion-01.png,73803,png
 figures/Original_repeat2/confusion-01.svg,16515,svg
+LICENSE,1160,
 models/nlst/confirmation/SHAP/SHAP排序.csv,1128,csv
 models/nlst/confirmation/SHAP/SHAP标准化.npz,1234,npz
 models/nlst/confirmation/SHAP/SHAP模型.txt,701711,txt
@@ -265,7 +269,7 @@ predictions/original/repeat2_fold2.csv,32661,csv
 predictions/original/repeat2_fold3.csv,32636,csv
 predictions/original/repeat2_fold4.csv,32514,csv
 predictions/original/repeat2_fold5.csv,32551,csv
-preparation_verification.json,937,json
+preparation_verification.json,1201,json
 provenance/nlst_cohort/dictionary_idc_ctab_idc-20210527.txt,7265,txt
 provenance/nlst_cohort/dictionary_idc_ctabc_idc-20210527.txt,6687,txt
 provenance/nlst_cohort/dictionary_idc_prsn_idc-20210527.txt,13188,txt
@@ -293,8 +297,8 @@ provenance/source_scripts/重复五折与内层优化.py,18833,py
 provenance/原基准运行前方案.json,1187,json
 provenance/运行前最终配置.json,2227,json
 provenance/预先固定成员.json,349097,json
-README.md,3280,md
-release_metadata_draft.json,847,json
+README.md,4713,md
+release_metadata_draft.json,3350,json
 reproduce.py,9531,py
 requirements-baselines.txt,145,txt
 requirements-data.txt,36,txt
@@ -530,6 +534,9 @@ source_data/training_budget/九档训练量汇总.csv,16327,csv
 source_data/training_budget/全部指标.csv,223159,csv
 source_data/training_budget/绘图规划源数据.csv,20203,csv
 source_data/training_budget/规则复杂度.csv,5861,csv
+src/__pycache__/final_core.cpython-312.pyc,9718,pyc
+src/__pycache__/ibrb_engine.cpython-312.pyc,24899,pyc
+src/__pycache__/论文配置引擎.cpython-312.pyc,11395,pyc
 src/final_core.py,4720,py
 src/ibrb_engine.py,16029,py
 src/neural_baselines.py,2793,py
@@ -551,6 +558,7 @@ tables/Table7_development.md,1025,md
 tables/Table8.md,2575,md
 tables/Table9_continuous.md,1878,md
 tables/Table9_record_binary.md,1881,md
+THIRD_PARTY_NOTICES.md,3273,md
 train_baselines.py,14606,py
 train_pipeline.py,9727,py
 validation/全流程完成核验.json,2340,json
@@ -560,7 +568,7 @@ verification_output/original_220_metrics.csv,40037,csv
 verification_output/original_mean_sd.csv,2922,csv
 verification_output/restored_model_metrics.csv,4277,csv
 verification_output/verification.json,392,json
-仓库与引用安排.md,1717,md
+仓库与引用安排.md,870,md
 全流程运行说明.md,3088,md
-发布待落实字段.csv,606,csv
+发布待落实字段.csv,801,csv
 基线训练与数据获取说明.md,5043,md

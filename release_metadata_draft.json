@@ -1,15 +1,81 @@
 {
   "title": "SHAP-guided IBRB reproducibility materials",
-  "version": "candidate-20261012",
-  "status": "local release candidate",
+  "version": "1.0.0",
+  "status": "local materials; publication metadata and licensing updated",
   "target_journal": "PLOS ONE",
   "proposed_code_repository": "GitHub",
   "proposed_fixed_archive": "Zenodo",
-  "creator_list": null,
-  "author_affiliations": null,
-  "code_licence": null,
-  "generated_data_licence": null,
-  "third_party_rights_confirmation": null,
+  "creator_list": [
+    {
+      "name": "Shaohua Li",
+      "given_name": "Shaohua",
+      "family_name": "Li",
+      "affiliations": [
+        "School of Innovation and Entrepreneurship, Dalian University of Foreign Languages, Dalian, China",
+        "School of Software, Dalian University of Foreign Languages, Dalian, China"
+      ]
+    },
+    {
+      "name": "Tianshu Guan",
+      "given_name": "Tianshu",
+      "family_name": "Guan",
+      "affiliations": [
+        "School of Software, Dalian University of Foreign Languages, Dalian, China"
+      ]
+    },
+    {
+      "name": "Zibo Zhou",
+      "given_name": "Zibo",
+      "family_name": "Zhou",
+      "affiliations": [
+        "School of Software, Dalian University of Foreign Languages, Dalian, China"
+      ]
+    },
+    {
+      "name": "Dongkun Liu",
+      "given_name": "Dongkun",
+      "family_name": "Liu",
+      "affiliations": [
+        "School of Software, Dalian University of Foreign Languages, Dalian, China"
+      ]
+    },
+    {
+      "name": "Jingying Feng",
+      "given_name": "Jingying",
+      "family_name": "Feng",
+      "affiliations": [
+        "School of Cybersecurity, Liaoning Police Academy, Dalian, China"
+      ]
+    },
+    {
+      "name": "Ruihua Qi",
+      "given_name": "Ruihua",
+      "family_name": "Qi",
+      "affiliations": [
+        "School of Software, Dalian University of Foreign Languages, Dalian, China"
+      ]
+    },
+    {
+      "name": "Wei He",
+      "given_name": "Wei",
+      "family_name": "He",
+      "affiliations": [
+        "School of Computer Science and Information Engineering, Harbin Normal University, Harbin, China"
+      ]
+    }
+  ],
+  "author_affiliations": [
+    "School of Innovation and Entrepreneurship, Dalian University of Foreign Languages, Dalian, China",
+    "School of Software, Dalian University of Foreign Languages, Dalian, China",
+    "School of Cybersecurity, Liaoning Police Academy, Dalian, China",
+    "School of Computer Science and Information Engineering, Harbin Normal University, Harbin, China"
+  ],
+  "code_licence": "MIT",
+  "generated_data_licence": "CC-BY-4.0 for author-created outputs; source-specific exceptions in THIRD_PARTY_NOTICES.md",
+  "third_party_rights_confirmation": {
+    "NLST_public_clinical": "CC-BY-4.0 verified at TCIA; attribution and changes supplied",
+    "original_benchmark": "redistribution scope unresolved"
+  },
   "repository_url": null,
   "archive_DOI": null,
   "description": "Frozen configurations, split members, fitted models, raw predictions, source values and reconstruction code for original benchmark and patient-level NLST analyses.",
@@ -21,5 +87,6 @@
     "reproducibility"
   ],
   "published": false,
-  "manuscript_modified": false
+  "manuscript_modified": false,
+  "ethics_statement": "NLST secondary analysis: no additional approval required under applicable institutional policy confirmed by authors; source trial approval and consent documented"
 }

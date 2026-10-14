@@ -1,35 +1,63 @@
 # SHAP-guided IBRB reproducibility materials
 
-This directory is a local release candidate prepared on 12 October 2026. Repository addresses, permanent identifiers, creator metadata and licensing will be completed before public release.
+Code and computational records accompanying *A hybrid interpretable risk assessment method for lung cancer integrating SHAP with a supervised interval belief rule base*.
 
-The original benchmark uses two repetitions of stratified five-fold evaluation. Each outer evaluation fold contains 1,000 records; SHAP and IBRB share a designated 1,000-record subset of the outer training pool. Feature selection and regularization selection are performed within training data. The model uses seven selected inputs, information-gain partitions, continuous soft matching, binary hard matching and 200 CMA generations. The regularization coefficient is selected through three inner folds.
+Authors: Shaohua Li, Tianshu Guan, Zibo Zhou, Dongkun Liu, Jingying Feng, Ruihua Qi, Wei He. See [AUTHORS.md](AUTHORS.md) for affiliations and corresponding-author information.
 
-The independent NLST analysis includes 6,996 patients, with 5,200 development patients and 1,796 confirmation patients. SHAP and IBRB each use 1,000 training patients. Support and optimization settings are selected within training data; the regularization coefficient is fixed at 0.05. The NLST model is refitted for its own inputs and outcome.
+## Evaluation protocol
 
-## Run
+The original 5,000-record benchmark uses two repetitions of stratified five-fold evaluation. Each fold has 1,000 evaluation records; SHAP and IBRB share a designated 1,000-record fitting subset of the outer training pool. Preprocessing, SHAP and information-gain partitioning are fitted within training data. Three inner folds select the regularization coefficient from 0, 0.01, 0.05 and 0.20. The model uses seven selected inputs, continuous soft matching, binary hard matching, adjacent-rule smoothing and 200 CMA-ES generations. Mean accuracy is 88.15%, AUC 0.914901 and Brier score 0.101731.
 
-Use Python and install `requirements.txt` for frozen-model reconstruction. Optional full training, baseline and acquisition dependencies are described in the companion instructions.
+The NLST analysis uses 6,996 baseline-CT patients, with 5,200 development and 1,796 confirmation patients. SHAP and IBRB share 1,000 training patients; support and optimization settings are selected within training data, with regularization fixed at 0.05. Confirmation AUC is 0.853105 and Brier score 0.030397. The outcome and predictors are fitted and defined for NLST separately from the original benchmark.
+
+## Quick start
+
+Use Python 3.12 and run commands from this directory:
 
 ```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 python reproduce.py
-python train_pipeline.py --help
-python train_baselines.py --help
-python acquire_data.py --help
-python build_nlst_cohort.py --help
 ```
 
-`reproduce.py` reconstructs original benchmark metrics for 220 model/fold conditions, restores 21 primary models and checks NLST confirmation comparisons. `train_pipeline.py` regenerates upstream SHAP selection and inner tuning; `train_baselines.py` trains comparison models. See `全流程运行说明.md` and `基线训练与数据获取说明.md` for commands and environment details.
+On Linux/macOS activate with `source .venv/bin/activate`. Frozen-model reconstruction checks 220 original-benchmark model/fold conditions, restores 10 original and 11 NLST primary models, and checks nine NLST confirmation comparison conditions. Its saved verification record is in `preparation_verification.json`. Full training was checked on representative stages; all 21 nested training procedures were not rerun during integration verification.
 
-Representative complete pipelines and baseline training were verified in the local package. Full training across all folds is supported; the integration check reran representative stages. Validation reports retain this scope.
+Exact original-benchmark model reconstruction requires `data/original.csv`; read [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for its source, precision and redistribution status before preparing the public upload.
 
-## Materials
+## Retraining and acquisition
 
-- `data/`, `config/`, `selection/`: exact processed inputs, split membership and training choices.
-- `models/`, `predictions/`, `results/`: fitted models, predictions and numerical summaries.
-- `figures/`, `tables/`, `source_data/`: candidate graphics, tables, rule inference examples and underlying values.
-- `figure_source_mapping.csv`, `table_source_mapping.csv`, `statistical_source_mapping.csv`: relative paths connecting artifacts to sources.
-- `docs/`, `provenance/`, `validation/`: metadata, historical provenance and verification records.
+```powershell
+python train_pipeline.py --task both --stage repeat1_fold1
+python train_pipeline.py --task both --all --output all_pipeline_output
+python -m pip install -r requirements-baselines.txt
+python train_baselines.py --task original --stage repeat1_fold1 --inputs all
+python -m pip install -r requirements-data.txt
+python acquire_data.py --dataset nlst --build --output downloaded_nlst
+```
 
-The benchmark source match and literature-based interpretation of `PULMONARY_DISEASE` are documented. Original collection or generation procedures and label assignment remain separate provenance questions. The NLST outcome and cohort construction are documented in the acquisition and rebuilding materials. Read `Data_Code_Availability_候选.md` and `仓库与引用安排.md` before preparing the public release.
+See [full training instructions](全流程运行说明.md), [baseline and acquisition instructions](基线训练与数据获取说明.md), and command-line `--help` for supported tasks. Full nested training takes substantially longer than frozen-model reconstruction.
 
-Historical absolute paths in provenance documents use the marker `historical_workspace`. Executable configuration paths are relative to this package. Figure/table numbering remains provisional until the consolidated manuscript revision.
+## Package layout
+
+| Directory or file | Contents |
+| --- | --- |
+| `src/` and Python entry points | Analysis, reconstruction, retraining and acquisition code |
+| `config/`, `selection/` | Exact split membership and training choices |
+| `data/` | Processed inputs; source-specific rights are in DATA_AVAILABILITY.md |
+| `models/`, `predictions/`, `results/` | Frozen models, original predictions and results |
+| `figures/`, `tables/`, `source_data/` | Figures, tables and numerical source values |
+| `*_source_mapping.csv` | Relative mappings between artifacts and numerical sources |
+| `validation/` | Saved reconstruction and representative training checks |
+| `provenance/`, `docs/` | Source and methodological records |
+
+Historical source records may refer to the original development workspace; executable configurations use paths relative to this package. Figure and table labels will be aligned with the consolidated revised manuscript before the paper-linked archive version is finalized.
+
+## Licenses and citation
+
+- Project-authored code: [MIT](LICENSE).
+- Author-created figures, explanatory text and aggregate analytical summaries: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- NLST public clinical subset: CC BY 4.0 with the attribution and modification notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+- Original benchmark: access instructions and unresolved redistribution scope in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
+
+[CITATION.cff](CITATION.cff) contains software authorship. Repository and archive identifiers will be added after creation. The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .

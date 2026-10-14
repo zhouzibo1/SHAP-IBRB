@@ -25,5 +25,14 @@
     "nlst_development_confirmation_disjoint": true,
     "full_training_rerun": false
   },
-  "availability_candidates_prepared": true
+  "availability_candidates_prepared": true,
+  "author_metadata_completed": true,
+  "code_license": "MIT",
+  "nlst_license": "CC-BY-4.0",
+  "remaining_publication_fields": [
+    "original benchmark redistribution scope",
+    "repository URL",
+    "archive DOI",
+    "final manuscript numbering"
+  ]
 }

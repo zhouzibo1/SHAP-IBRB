@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite this software and the source datasets when using these materials."
+title: "SHAP-guided IBRB reproducibility materials"
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: "Li"
+    given-names: "Shaohua"
+    affiliation: "School of Innovation and Entrepreneurship, Dalian University of Foreign Languages, Dalian, China; School of Software, Dalian University of Foreign Languages, Dalian, China"
+  - family-names: "Guan"
+    given-names: "Tianshu"
+    affiliation: "School of Software, Dalian University of Foreign Languages, Dalian, China"
+  - family-names: "Zhou"
+    given-names: "Zibo"
+    affiliation: "School of Software, Dalian University of Foreign Languages, Dalian, China"
+  - family-names: "Liu"
+    given-names: "Dongkun"
+    affiliation: "School of Software, Dalian University of Foreign Languages, Dalian, China"
+  - family-names: "Feng"
+    given-names: "Jingying"
+    affiliation: "School of Cybersecurity, Liaoning Police Academy, Dalian, China"
+  - family-names: "Qi"
+    given-names: "Ruihua"
+    affiliation: "School of Software, Dalian University of Foreign Languages, Dalian, China"
+  - family-names: "He"
+    given-names: "Wei"
+    affiliation: "School of Computer Science and Information Engineering, Harbin Normal University, Harbin, China"
+keywords:
+  - belief rule base
+  - SHAP
+  - evidential reasoning
+  - reproducibility
