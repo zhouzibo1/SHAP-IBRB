@@ -1,0 +1,23 @@
+{
+  "reference": "historical_workspace\\补实验\\原数据1000配置重复五折_20261005_180121",
+  "inner_reference": "historical_workspace\\补实验\\离散化最小区间内层优化_20261005_230209",
+  "grid_lambda": [
+    0.0,
+    0.01,
+    0.05,
+    0.2
+  ],
+  "outer_training_n": 1000,
+  "outer_test_n": 1000,
+  "outer_folds": 10,
+  "inner_folds": 3,
+  "selection": "unweighted mean of three inner validation raw MSE;grid order breaks ties",
+  "SHAP": "quantile alpha.5,200 rounds;refit on each inner training partition;reuse identical verified saved fits",
+  "discretization": "original IG positive gain,max20,parent5;no minimum-child constraint",
+  "matching": "continuous midpoint beta/r/w interpolation,constant endpoint extension;binary hard;ER",
+  "CMA": "200 generations,sigma.5,same paired seed for all lambdas",
+  "efficiency": "reuse 30 identical IG min0 inner lambda.05 fits;reuse final fixed model when selected lambda.05",
+  "lock": "all choices and final models saved before any new outer scoring",
+  "scope": "development nested lambda comparison on previously investigated folds;no new untouched test set",
+  "automatic_adoption": false
+}

@@ -1,0 +1,6 @@
+{
+  "selection": "one record nearest within-group median raw score for TP/FN/FP/TN;smallest original-order tie",
+  "threshold": 0.5,
+  "n": 4,
+  "purpose": "inference illustration;not performance estimation"
+}

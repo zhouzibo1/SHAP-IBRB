@@ -1,0 +1,13 @@
+﻿field,role,dtype,missing_n,unique_nonmissing,minimum,maximum
+pid,identifier,int64,0,6996,100004.0,218892.0
+age,input,int64,0,21,54.0,74.0
+male,input,int64,0,2,0.0,1.0
+race,input,float64,7,7,1.0,7.0
+cigsmok,input,int64,0,2,0.0,1.0
+baseline_nodule_count,input,int64,0,11,1.0,12.0
+index_long_diameter_mm,input,float64,19,60,4.0,195.0
+index_perpendicular_diameter_mm,input,float64,24,53,1.0,106.0
+index_lobe,input,int64,0,7,1.0,8.0
+index_margin,input,float64,346,3,1.0,3.0
+index_attenuation,input,float64,366,6,1.0,7.0
+label_365d,outcome,int64,0,2,0.0,1.0

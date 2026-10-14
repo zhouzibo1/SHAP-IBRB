@@ -1,0 +1,253 @@
+{
+  "figure": "Fig3_SHAP_selection",
+  "canvas": [
+    18,
+    9.7
+  ],
+  "width_mm": 180,
+  "height_mm": 97.0,
+  "nodes": [
+    {
+      "id": "background",
+      "label": "",
+      "xy": [
+        0.15,
+        0.15
+      ],
+      "size": [
+        17.7,
+        9.4
+      ],
+      "shape": "round",
+      "color": "#E2EFFB",
+      "edgecolor": "#BFBFBF",
+      "font_pt": 8
+    },
+    {
+      "id": "title",
+      "label": "SHAP-based feature selection process",
+      "xy": [
+        4.6,
+        8.6
+      ],
+      "size": [
+        8.0,
+        0.65
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "black",
+      "font_pt": 9
+    },
+    {
+      "id": "step1",
+      "label": "Step 1: Training inputs\n\nDefine the 17-input space\nusing the designated\ntraining records.",
+      "xy": [
+        0.5,
+        5.15
+      ],
+      "size": [
+        4.65,
+        2.65
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step2",
+      "label": "Step 2: Upstream attribution\n\nFit training standardization\nand quantile LightGBM;\ncompute training TreeSHAP.",
+      "xy": [
+        6.25,
+        5.15
+      ],
+      "size": [
+        4.65,
+        2.65
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step3",
+      "label": "Step 3: Global ranking\n\nRank inputs by mean\nabsolute SHAP over\nthe training records.",
+      "xy": [
+        6.25,
+        1.45
+      ],
+      "size": [
+        4.65,
+        2.65
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step4",
+      "label": "Step 4: Select seven inputs\n\nPass selected raw columns\nto supervised interval\nand rule learning.",
+      "xy": [
+        0.5,
+        1.45
+      ],
+      "size": [
+        4.65,
+        2.65
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8.5
+    },
+    {
+      "id": "local",
+      "label": "Waterfall\nLocal upstream attribution",
+      "xy": [
+        12.35,
+        6.4
+      ],
+      "size": [
+        4.65,
+        1.15
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8
+    },
+    {
+      "id": "plot0",
+      "label": "Beeswarm summary",
+      "xy": [
+        12.55,
+        4.65
+      ],
+      "size": [
+        4.3,
+        0.8
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8
+    },
+    {
+      "id": "plot1",
+      "label": "Dependence plots",
+      "xy": [
+        12.55,
+        3.5500000000000003
+      ],
+      "size": [
+        4.3,
+        0.8
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8
+    },
+    {
+      "id": "plot2",
+      "label": "Contribution heatmap",
+      "xy": [
+        12.55,
+        2.45
+      ],
+      "size": [
+        4.3,
+        0.8
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8
+    }
+  ],
+  "edges": [
+    {
+      "id": "1to2",
+      "points": [
+        [
+          5.15,
+          6.48
+        ],
+        [
+          6.25,
+          6.48
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "2to3",
+      "points": [
+        [
+          10.9,
+          6.48
+        ],
+        [
+          11.4,
+          6.48
+        ],
+        [
+          11.4,
+          2.78
+        ],
+        [
+          10.9,
+          2.78
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "3to4",
+      "points": [
+        [
+          6.25,
+          2.78
+        ],
+        [
+          5.15,
+          2.78
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "explain",
+      "points": [
+        [
+          10.9,
+          2.3
+        ],
+        [
+          11.7,
+          2.3
+        ],
+        [
+          11.7,
+          6.98
+        ],
+        [
+          12.35,
+          6.98
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    }
+  ],
+  "original_reference": "historical_workspace\\tmp\\reading\\image15.png",
+  "method_source": "historical_workspace\\补实验\\方法图1至4核对记录_20261010\\README.md",
+  "adapter": "original-layout matplotlib vector reconstruction",
+  "reference_search": "figure_workflow references schematic; original manuscript layout prioritized"
+}

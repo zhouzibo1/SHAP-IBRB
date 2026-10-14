@@ -1,0 +1,74 @@
+{
+  "cohort_n": 6996,
+  "development_n": 5200,
+  "confirmation_n": 1796,
+  "confirmation_positive_n": 69,
+  "previous_prediction_files_audited": 611,
+  "unseen_confirmation_overlap": 0,
+  "cohort_task": "first lung cancer diagnosis0-365days after baseline CT;eligible baseline noncalcified nodules;patient unit",
+  "training_budget": "same1000 labelled patients for preprocessing,SHAP and each downstream estimator;top7 encoded terms and all encoded input controls",
+  "SHAP": "training-only binary LightGBM200 defaultlr.1leaves31;meanabs raw logodds SHAP;eligible nonconstant inputs;top7",
+  "rule_grid": [
+    [
+      10,
+      0.15
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      20,
+      0.15
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      40,
+      0.15
+    ],
+    [
+      40,
+      0.5
+    ]
+  ],
+  "lambda_fixed": 0.05,
+  "CMA_generations": 200,
+  "optimizer_seeds": [
+    20261003,
+    20261004,
+    20261005
+  ],
+  "primary_optimizer_seed": 20261003,
+  "inner": "3stratifiedfolds;refit upstream each fold;pooled raw Brier choice;exact ties grid order",
+  "validation": "two repeated stratified patient fivefolds in5200 development;training-only subsample1000 each;fold scores developmental;independent1796 confirmation scored once after all fits",
+  "LR_ridge_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "LGBM_grid": [
+    {
+      "max_depth": 3,
+      "num_leaves": 7
+    },
+    {
+      "max_depth": 6,
+      "num_leaves": 31
+    }
+  ],
+  "LGBM_fixed": "200trees lr.05 minleaf20 L2=1",
+  "traditional_IBRB": "same7;20equalwidth intervals each;hard match;CMA200;inner sigma .15/.5;no smoothness",
+  "threshold": 0.5,
+  "primary_metrics": [
+    "auc",
+    "mse",
+    "average_precision",
+    "log_loss"
+  ],
+  "seed_aggregation": "primary fixedseed plus2 separate robustness conditions;no bestseed or ensemble",
+  "comparison_scope": "independent dataset method validation;different inputs and outcome window from original benchmark;not transport of original fitted symptom model",
+  "confirmation_discipline": "complete all selections and fit all models before any new outer or confirmation score;no further tuning after confirmation"
+}

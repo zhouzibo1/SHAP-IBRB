@@ -1,0 +1,55 @@
+{
+  "reference": "historical_workspace\\补实验\\原数据1000配置重复五折_20261005_180121",
+  "training_n": 1000,
+  "outer_test_n": 1000,
+  "outer_folds": 10,
+  "grids": {
+    "DT": [
+      [
+        3,
+        "gini"
+      ],
+      [
+        6,
+        "gini"
+      ],
+      [
+        3,
+        "entropy"
+      ],
+      [
+        6,
+        "entropy"
+      ]
+    ],
+    "SVM": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "XGB": [
+      100,
+      200,
+      400
+    ]
+  },
+  "selection": "mean inner3fold raw probability MSE; first grid item breaks ties",
+  "input_conditions": [
+    "training-only SHAP top7",
+    "all17"
+  ],
+  "SHAP_inner": "refit quantile SHAP on each inner training fold before same7 baseline fitting",
+  "SVM": "linear SVC with train-internal3fold sigmoid probability calibration; scaler inside pipeline; threshold.5",
+  "EBM": "package defaults except random_state and n_jobs1; default internal validation and bagging stay within1000",
+  "versions": {
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1",
+    "interpret": "0.7.8"
+  },
+  "expected_final_models": 80,
+  "expected_inner_candidates": 600,
+  "scope": "development repeated CV; selected new baselines versus previously fixed IBRB/LR/LightGBM",
+  "lock": "all models and choices saved before outer scoring",
+  "automatic_adoption": false,
+  "NLST_test_scored_n": 0
+}

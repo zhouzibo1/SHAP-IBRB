@@ -1,0 +1,206 @@
+{
+  "figure": "Fig4_IG_partition",
+  "canvas": [
+    18,
+    11.2
+  ],
+  "width_mm": 180,
+  "height_mm": 112.0,
+  "nodes": [
+    {
+      "id": "title",
+      "label": "Core objective",
+      "xy": [
+        11.6,
+        10.42
+      ],
+      "size": [
+        4.7,
+        0.56
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#7030A0",
+      "font_pt": 9
+    },
+    {
+      "id": "step0",
+      "label": "1. Training input\n\nUse each of the seven selected raw inputs\nand its corresponding training labels.",
+      "xy": [
+        0.3,
+        8.2
+      ],
+      "size": [
+        9.45,
+        2.0
+      ],
+      "shape": "rect",
+      "color": "#E4D7E8",
+      "edgecolor": "#7030A0",
+      "font_pt": 8.5
+    },
+    {
+      "id": "purpose0",
+      "label": "Build per-attribute intervals\nusing training labels",
+      "xy": [
+        10.65,
+        8.44
+      ],
+      "size": [
+        6.6,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#D9C2E9",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step1",
+      "label": "2. Candidate generation\n\nSort distinct values in eligible current intervals;\nuse adjacent-value midpoints as candidates.",
+      "xy": [
+        0.3,
+        5.699999999999999
+      ],
+      "size": [
+        9.45,
+        2.0
+      ],
+      "shape": "rect",
+      "color": "#E4D7E8",
+      "edgecolor": "#7030A0",
+      "font_pt": 8.5
+    },
+    {
+      "id": "purpose1",
+      "label": "Search distinct-value midpoints\nwithin the current intervals",
+      "xy": [
+        10.65,
+        5.9399999999999995
+      ],
+      "size": [
+        6.6,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#D9C2E9",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step2",
+      "label": "3. Greedy partition update\n\nEvaluate information gain for all eligible candidates.\nInsert the split with the largest positive gain.",
+      "xy": [
+        0.3,
+        3.1999999999999993
+      ],
+      "size": [
+        9.45,
+        2.0
+      ],
+      "shape": "rect",
+      "color": "#E4D7E8",
+      "edgecolor": "#7030A0",
+      "font_pt": 8.5
+    },
+    {
+      "id": "purpose2",
+      "label": "Reduce label entropy\nwith a greedy split",
+      "xy": [
+        10.65,
+        3.4399999999999995
+      ],
+      "size": [
+        6.6,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#D9C2E9",
+      "font_pt": 8.5
+    },
+    {
+      "id": "step3",
+      "label": "4. Termination and output\n\nStop at 20 intervals or when no positive-gain\neligible split remains. Return unique sorted boundaries.",
+      "xy": [
+        0.3,
+        0.6999999999999993
+      ],
+      "size": [
+        9.45,
+        2.0
+      ],
+      "shape": "rect",
+      "color": "#E4D7E8",
+      "edgecolor": "#7030A0",
+      "font_pt": 8.5
+    },
+    {
+      "id": "purpose3",
+      "label": "Control interval count; eligibility requires\nat least five records in the parent interval",
+      "xy": [
+        10.65,
+        0.9399999999999993
+      ],
+      "size": [
+        6.6,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#D9C2E9",
+      "font_pt": 8.5
+    }
+  ],
+  "edges": [
+    {
+      "id": "stepflow0",
+      "points": [
+        [
+          5.0,
+          8.2
+        ],
+        [
+          5.0,
+          7.699999999999999
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stepflow1",
+      "points": [
+        [
+          5.0,
+          5.699999999999999
+        ],
+        [
+          5.0,
+          5.199999999999999
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stepflow2",
+      "points": [
+        [
+          5.0,
+          3.1999999999999993
+        ],
+        [
+          5.0,
+          2.6999999999999993
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    }
+  ],
+  "original_reference": "historical_workspace\\tmp\\reading\\image89.png",
+  "method_source": "historical_workspace\\补实验\\方法图1至4核对记录_20261010\\README.md",
+  "adapter": "original-layout matplotlib vector reconstruction",
+  "reference_search": "figure_workflow references schematic; original manuscript layout prioritized"
+}

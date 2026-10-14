@@ -1,0 +1,166 @@
+{
+  "figure": "Fig1_ER",
+  "canvas": [
+    18,
+    7.2
+  ],
+  "width_mm": 180,
+  "height_mm": 72.0,
+  "nodes": [
+    {
+      "id": "background",
+      "label": "",
+      "xy": [
+        0.15,
+        0.2
+      ],
+      "size": [
+        17.7,
+        6.8
+      ],
+      "shape": "round",
+      "color": "#E9F2E5",
+      "edgecolor": "#BFBFBF",
+      "font_pt": 8
+    },
+    {
+      "id": "title",
+      "label": "Detailed steps of evidential reasoning",
+      "xy": [
+        3.6,
+        5.95
+      ],
+      "size": [
+        10.8,
+        0.75
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "black",
+      "font_pt": 9
+    },
+    {
+      "id": "s1",
+      "label": "Step 1: Obtain attribute-level evidence\n\nContinuous inputs: interpolate beliefs, reliability\nand weight between adjacent interval centers.\nBinary inputs: look up the matching interval.",
+      "xy": [
+        0.5,
+        3.4
+      ],
+      "size": [
+        8.0,
+        2.15
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "black",
+      "font_pt": 8
+    },
+    {
+      "id": "s2",
+      "label": "Step 2: Weight and discount evidence\n\nUse rule weights and rule reliability\nto form the weighted evidence\nfor each selected attribute.",
+      "xy": [
+        9.5,
+        3.4
+      ],
+      "size": [
+        8,
+        2.15
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "black",
+      "font_pt": 8
+    },
+    {
+      "id": "s3",
+      "label": "Step 3: Fuse evidence\n\nAggregate the seven attribute-level\nbelief distributions using ER-Rule\nand normalize the fused beliefs.",
+      "xy": [
+        9.5,
+        0.6
+      ],
+      "size": [
+        8,
+        2.15
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "black",
+      "font_pt": 8
+    },
+    {
+      "id": "s4",
+      "label": "Step 4: Calculate expected utility\n\nSet u(0) = 0 and u(1) = 1.\nThe expected utility equals the\nfused positive-class belief.",
+      "xy": [
+        0.5,
+        0.6
+      ],
+      "size": [
+        8,
+        2.15
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "black",
+      "font_pt": 8
+    }
+  ],
+  "edges": [
+    {
+      "id": "1to2",
+      "points": [
+        [
+          8.5,
+          4.45
+        ],
+        [
+          9.5,
+          4.45
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "2to3",
+      "points": [
+        [
+          17.5,
+          4.0
+        ],
+        [
+          17.72,
+          4.0
+        ],
+        [
+          17.72,
+          1.65
+        ],
+        [
+          17.5,
+          1.65
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "3to4",
+      "points": [
+        [
+          9.5,
+          1.65
+        ],
+        [
+          8.5,
+          1.65
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    }
+  ],
+  "original_reference": "historical_workspace\\tmp\\reading\\image11.png",
+  "method_source": "historical_workspace\\补实验\\方法图1至4核对记录_20261010\\README.md",
+  "adapter": "original-layout matplotlib vector reconstruction",
+  "reference_search": "figure_workflow references schematic; original manuscript layout prioritized"
+}

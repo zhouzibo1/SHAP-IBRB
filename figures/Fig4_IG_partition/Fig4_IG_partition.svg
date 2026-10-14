@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="317.480315pt" viewBox="0 0 510.23622 317.480315" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T21:50:27.747345</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 317.480315 
+L 510.23622 317.480315 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 289.700787 305.370709 
+L 494.430236 305.370709 
+L 494.430236 12.109606 
+L 289.700787 12.109606 
+L 289.700787 305.370709 
+z
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke-dasharray: 4.2,2.1; stroke-dashoffset: 0; stroke: #7030a0; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 327.050079 25.389354 
+L 457.080945 25.389354 
+L 457.080945 9.896315 
+L 327.050079 9.896315 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #ffffff; stroke: #7030a0; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 14.422677 86.808189 
+L 275.867717 86.808189 
+L 275.867717 31.475906 
+L 14.422677 31.475906 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #e4d7e8; stroke: #7030a0; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 300.767244 80.168315 
+L 483.36378 80.168315 
+L 483.36378 38.669102 
+L 300.767244 38.669102 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #ffffff; stroke: #d9c2e9; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 144.453543 86.808189 
+Q 144.453543 93.724724 144.453543 99.746833 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 146.253543 96.146833 
+L 144.453543 99.746833 
+L 142.653543 96.146833 
+z
+" clip-path="url(#pc2d6231805)" style="stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 14.422677 155.973543 
+L 275.867717 155.973543 
+L 275.867717 100.64126 
+L 14.422677 100.64126 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #e4d7e8; stroke: #7030a0; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 300.767244 149.333669 
+L 483.36378 149.333669 
+L 483.36378 107.834457 
+L 300.767244 107.834457 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #ffffff; stroke: #d9c2e9; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 144.453543 155.973543 
+Q 144.453543 162.890079 144.453543 168.912187 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 146.253543 165.312187 
+L 144.453543 168.912187 
+L 142.653543 165.312187 
+z
+" clip-path="url(#pc2d6231805)" style="stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 14.422677 225.138898 
+L 275.867717 225.138898 
+L 275.867717 169.806614 
+L 14.422677 169.806614 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #e4d7e8; stroke: #7030a0; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 300.767244 218.499024 
+L 483.36378 218.499024 
+L 483.36378 176.999811 
+L 300.767244 176.999811 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #ffffff; stroke: #d9c2e9; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 144.453543 225.138898 
+Q 144.453543 232.055433 144.453543 238.077541 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 146.253543 234.477541 
+L 144.453543 238.077541 
+L 142.653543 234.477541 
+z
+" clip-path="url(#pc2d6231805)" style="stroke: #000000; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 14.422677 294.304252 
+L 275.867717 294.304252 
+L 275.867717 238.971969 
+L 14.422677 238.971969 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #e4d7e8; stroke: #7030a0; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 300.767244 287.664378 
+L 483.36378 287.664378 
+L 483.36378 246.165165 
+L 300.767244 246.165165 
+z
+" clip-path="url(#pc2d6231805)" style="fill: #ffffff; stroke: #d9c2e9; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 275.867717 59.142047 
+L 300.767244 59.142047 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #7030a0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 275.867717 128.307402 
+L 300.767244 128.307402 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #7030a0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 275.867717 197.472756 
+L 300.767244 197.472756 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #7030a0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 275.867717 266.63811 
+L 300.767244 266.63811 
+" clip-path="url(#pc2d6231805)" style="fill: none; stroke: #7030a0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Times New Roman'; text-anchor: middle" x="392.065512" y="19.798616" transform="rotate(-0 392.065512 19.798616)">Core objective</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(116.688791 47.265621)">1. Training input</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(145.145197 54.505231)"/>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(74.454416 65.820856)">Use each of the seven selected raw inputs</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(82.234572 75.08652)">and its corresponding training labels.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(344.941645 56.823884)">Build per-attribute intervals</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(357.598012 66.089549)">using training labels</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(104.665275 116.430976)">2. Candidate generation</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(145.145197 123.670585)"/>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(64.413127 134.978241)">Sort distinct values in eligible current intervals;</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(70.910314 144.253866)">use adjacent-value midpoints as candidates.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(338.242582 125.989239)">Search distinct-value midpoints</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(346.155551 136.113536)">within the current intervals</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(100.534142 185.59633)">3. Greedy partition update</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(145.145197 192.835939)"/>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(55.572462 204.143596)">Evaluate information gain for all eligible candidates.</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(69.679806 213.417229)">Insert the split with the largest positive gain.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(355.953793 195.146624)">Reduce label entropy</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(360.551098 204.420257)">with a greedy split</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(101.139103 254.769653)">4. Termination and output</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(145.145197 262.001294)"/>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(68.775353 273.30895)">Stop at 20 intervals or when no positive-gain</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(50.954572 282.582583)">eligible split remains. Return unique sorted boundaries.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(321.010824 264.311979)">Control interval count; eligibility requires</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(322.559418 273.59358)">at least five records in the parent interval</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc2d6231805">
+   <rect x="6.122835" y="3.809764" width="497.990551" height="309.860787"/>
+  </clipPath>
+ </defs>
+</svg>

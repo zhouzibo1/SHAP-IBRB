@@ -1,0 +1,13 @@
+﻿table,candidate_source,scope,rows
+Table1,source_data/tables/原论文九表候选与核对_20261010/源数值/Table1.csv,implemented original benchmark design,7
+Table2,source_data/tables/原论文九表候选与核对_20261010/源数值/Table2.csv,"observed coding and original manuscript descriptions, not a clinical measurement dictionary",18
+Table3,source_data/tables/原论文九表候选与核对_20261010/源数值/Table3.csv,"representative repeat1 fold1 SHAP, plus ten-fold selection frequency",7
+Table3_full_frequency,source_data/tables/原论文九表候选与核对_20261010/源数值/Table3_full_frequency.csv,"all 17 inputs, ten related outer folds",17
+Table5,source_data/tables/原论文九表候选与核对_20261010/源数值/Table5.csv,same frozen representative fold as Figures 5–13,20
+Table6_all22,source_data/tables/原论文九表候选与核对_20261010/源数值/Table6_all22.csv,final unified training protocol; all 22 conditions,22
+Table6_main12,source_data/tables/原论文九表候选与核对_20261010/源数值/Table6_main12.csv,proposed inner-lambda model and all 11 same-seven-input baselines,12
+Table7_development_all,source_data/tables/原论文九表候选与核对_20261010/源数值/Table7_development_all.csv,development patient-level repeated five-fold means/SD,9
+Table7_confirmation_all,source_data/tables/原论文九表候选与核对_20261010/源数值/Table7_confirmation_all.csv,"nine saved conditions, 1,796 unique patients, primary seed separate from two optimizer checks",9
+Table8_all54,source_data/tables/原论文九表候选与核对_20261010/源数值/Table8_all54.csv,downstream budget sensitivity; legacy fixed baseline settings,54
+Table9_all,source_data/tables/原论文九表候选与核对_20261010/源数值/Table9_all.csv,"frozen models, seven levels, two error scenarios, legacy fixed baseline controls",98
+Table4,source_data/tables/补实验/三上游SHAP训练内对照_20261010/Table4_候选.csv,Training-only three-upstream SHAP comparison; representative fold,7

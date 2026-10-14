@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rule_models": 21,
+  "rule_rows": 830,
+  "case_n": 8,
+  "example_model_full_prediction_sets_verified": 2,
+  "ER_components_independently_recomputed": true,
+  "no_model_refit": true
+}

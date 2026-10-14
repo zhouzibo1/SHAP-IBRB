@@ -1,0 +1,9 @@
+{
+  "patient_rows": 6996,
+  "positive": 265,
+  "unique_pid": true,
+  "test_training_overlap": 0,
+  "IBRB_subset_of_SHAP": true,
+  "positive_dates_match_window": true,
+  "model_fitted": false
+}

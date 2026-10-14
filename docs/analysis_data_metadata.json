@@ -1,0 +1,20 @@
+{
+  "original": {
+    "rows": 5000,
+    "positive": 2037,
+    "input_count": 17,
+    "identifier": null,
+    "label": "PULMONARY_DISEASE"
+  },
+  "nlst": {
+    "rows": 6996,
+    "positive": 265,
+    "input_count": 10,
+    "identifier": "pid",
+    "label": "label_365d"
+  },
+  "original_product_relations": {
+    "SMOKING_FAMILY_HISTORY": "SMOKING * FAMILY_HISTORY",
+    "STRESS_IMMUNE": "MENTAL_STRESS * IMMUNE_WEAKNESS"
+  }
+}

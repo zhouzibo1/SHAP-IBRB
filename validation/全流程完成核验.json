@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-11",
+  "main_method_full_training_entry_integrated": true,
+  "representative_full_nested_runs": {
+    "passed": true,
+    "stages": 2,
+    "reports": [
+      {
+        "task": "original",
+        "stage": "repeat1_fold1",
+        "passed": true,
+        "maximum_prediction_difference": 3.3306690738754696e-16,
+        "n": 1000,
+        "accuracy": 0.9,
+        "mse": 0.09892716612885534,
+        "auc": 0.9203835907039952,
+        "average_precision": 0.8840138904537194,
+        "recall": 0.8476658476658476,
+        "specificity": 0.9359190556492412,
+        "f1": 0.8734177215189873,
+        "TP": 345,
+        "FP": 38,
+        "FN": 62,
+        "TN": 555,
+        "predicted_positive_n": 383,
+        "log_loss": 0.38167339876370376
+      },
+      {
+        "task": "nlst",
+        "stage": "repeat1_fold1",
+        "passed": true,
+        "maximum_prediction_difference": 0.0,
+        "n": 1041,
+        "accuracy": 0.9644572526416907,
+        "mse": 0.030355005992838954,
+        "auc": 0.8023976023976024,
+        "average_precision": 0.37533233838073526,
+        "recall": 0.325,
+        "specificity": 0.99000999000999,
+        "f1": 0.4126984126984127,
+        "TP": 13,
+        "FP": 10,
+        "FN": 27,
+        "TN": 991,
+        "predicted_positive_n": 23,
+        "log_loss": 0.15802122473672842
+      }
+    ],
+    "seconds": 126.30776209999749,
+    "main_method_only": true
+  },
+  "training_verification": [
+    {
+      "task": "original",
+      "stage": "repeat1_fold1",
+      "inner_candidates": 12,
+      "SHAP_fits": 4,
+      "selected_lambda": 0.05,
+      "maximum_inner_mse_difference": 9.71445146547012e-17,
+      "train_test_disjoint": true,
+      "all_training_completed_before_evaluation": true
+    },
+    {
+      "task": "nlst",
+      "stage": "repeat1_fold1",
+      "inner_candidates": 18,
+      "SHAP_fits": 4,
+      "selected_min_child": 40,
+      "selected_sigma": 0.5,
+      "maximum_inner_mse_difference": 9.71445146547012e-17,
+      "train_test_disjoint": true,
+      "all_training_completed_before_evaluation": true
+    }
+  ],
+  "all21_full_nested_runs_executed": false,
+  "migrated_pipeline_imports_passed": true,
+  "migrated_saved_model_reconstruction_passed": true,
+  "manuscript_modified": false
+}

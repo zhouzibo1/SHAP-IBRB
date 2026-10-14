@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "original_baseline_conditions": 220,
+  "original_prediction_rows": 220000,
+  "restored_original_models": 10,
+  "restored_nlst_primary_models": 11,
+  "nlst_confirmation_conditions": 9,
+  "maximum_prediction_error": 5.684341886080802e-14,
+  "original_train_test_disjoint": true,
+  "nlst_development_confirmation_disjoint": true,
+  "full_training_rerun": false,
+  "relocated_directory_test": true,
+  "original_conditional_retraining": {
+    "passed": true,
+    "task": "original",
+    "stage": "repeat1_fold1",
+    "generations": 200,
+    "features_and_lambda": "frozen training-only selection",
+    "max_parameter_error": 0.0
+  },
+  "nlst_conditional_retraining": {
+    "passed": true,
+    "task": "nlst",
+    "stage": "confirmation",
+    "generations": 200,
+    "preprocessing_features_and_settings": "frozen training-only selection",
+    "max_parameter_error": 0.0
+  },
+  "file_count": 298,
+  "full_nested_retraining_entry_integrated": true,
+  "manuscript_modified": false,
+  "representative_full_nested_runs": 2
+}

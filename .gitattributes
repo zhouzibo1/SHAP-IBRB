@@ -1,0 +1,10 @@
+# The release candidate is archived exactly as prepared locally.
+# Line-ending conversion is disabled so every published file is byte-identical
+# to the material that was verified on disk. Remove `-text` and set
+# `* text=auto` only if you later want cross-platform LF normalisation.
+* -text
+
+# Collapse generated / tabular material in diffs and language statistics
+*.csv -diff linguist-generated
+*.json -diff linguist-generated
+*.npz -diff linguist-generated

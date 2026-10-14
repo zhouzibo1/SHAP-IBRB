@@ -1,0 +1,27 @@
+{
+  "test": {
+    "n": 130,
+    "positive": 5
+  },
+  "validation": {
+    "n": 300,
+    "positive": 11
+  },
+  "SHAP": {
+    "n": 1000,
+    "positive": 38
+  },
+  "IBRB": {
+    "n": 260,
+    "positive": 10
+  },
+  "unallocated_training_pool": {
+    "n": 5566,
+    "positive": 211
+  },
+  "seed": 20261003,
+  "IBRB_subset_of_SHAP": true,
+  "test_training_overlap": 0,
+  "validation_training_overlap": 0,
+  "model_fitted": false
+}

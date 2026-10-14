@@ -1,0 +1,15 @@
+﻿table,source,scope
+原基准22配置逐折混淆矩阵,source_data/statistics/最终混淆矩阵与图表索引_20261008/SourceData/原基准22配置逐折混淆矩阵.csv,220行；每折1000评价记录
+原基准22配置逐重复混淆矩阵,source_data/statistics/最终混淆矩阵与图表索引_20261008/SourceData/原基准22配置逐重复混淆矩阵.csv,44行；每模型每次重复5000记录
+NLST九模型确认混淆矩阵,source_data/statistics/最终混淆矩阵与图表索引_20261008/SourceData/NLST确认集全部模型混淆矩阵.csv,9行；各1796确认患者
+最终基线均值SD,source_data/statistics/补实验/最终基线统一比较_20261007/22配置均值SD.csv,逐折平均与SD
+最终基线逐折指标,source_data/statistics/补实验/最终基线统一比较_20261007/22配置逐折指标.csv,22配置×10折
+最终基线配对区间与校正,source_data/statistics/补实验/最终基线统一比较_20261007/全基线配对区间与Holm.csv,三个家族及校正口径以最终报告为准
+最终基线校准诊断,source_data/statistics/补实验/最终基线统一比较_20261007/22配置校准诊断.csv,原始概率校准诊断
+NLST开发期均值SD,source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/开发重复五折均值SD.csv,开发期重复患者级五折
+NLST确认指标,source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/最终确认集指标.csv,冻结确认模型与对照
+NLST确认条件区间,source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/确认集患者bootstrap条件区间.csv,固定模型患者级重抽样
+NLST确认配对区间,source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/确认集配对差异条件区间.csv,同患者配对重抽样
+NLST确认校准,source_data/statistics/补实验/NLST最终患者级验证_20261006_120719/确认集校准诊断.csv,原始输出校准诊断
+六组核心消融,source_data/statistics/补实验/原数据1000全特征消融_20261005_192825/六组十折汇总.csv,固定lambda0.05的组件控制
+替代监督离散化,source_data/statistics/补实验/原数据1000_ChiMerge离散化对照_20261005_224708/六组十折汇总.csv,IG/MDLP/ChiMerge硬软六条件

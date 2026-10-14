@@ -1,0 +1,39 @@
+{
+  "reference": "historical_workspace\\补实验\\原数据1000训练内lambda选择_20261006_005147",
+  "inner_source": "historical_workspace\\补实验\\离散化最小区间内层优化_20261005_230209",
+  "LR_GRID": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "LGBM_GRID": [
+    [
+      15,
+      1.0
+    ],
+    [
+      31,
+      1.0
+    ],
+    [
+      15,
+      5.0
+    ]
+  ],
+  "LGBM_fixed": "200trees,lr.05,depth6,minleaf20;leaves/L2 selected",
+  "outer_training_n": 1000,
+  "outer_evaluation_n": 1000,
+  "inner_partitions": "identical to IBRB lambda selection",
+  "SHAP": "fresh quantile alpha.5 200-round fit per inner training;check selected columns against saved IBRB upstream",
+  "inputs": [
+    "same7",
+    "all17"
+  ],
+  "selection": "unweighted mean inner3fold raw Brier;grid order breaks ties, same as IBRB",
+  "outer_SHAP": "reuse verified full1000 selected columns",
+  "lock": "all40 final models saved before outer scoring",
+  "scope": "previously used benchmark development CV",
+  "expected_inner_fits": 360,
+  "expected_final_fits": 40,
+  "expected_SHAP_refits": 30
+}

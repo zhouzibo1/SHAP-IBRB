@@ -1,0 +1,13 @@
+# Table 1 candidate: partitioning designs
+
+| Item | Equal-width partitioning | Information-gain partitioning |
+| --- | --- | --- |
+| Boundary placement | Uniform over the training value range | Greedy positive information-gain splits |
+| Label use for boundaries | No | Training labels |
+| Interval count | 20 per selected input in the structural comparator | At most 20; realized counts after deduplication |
+| Stopping | Fixed number of bins | Interval cap or no eligible positive-gain split |
+| Parent support | Not used for equal-width boundaries | Parent interval requires at least five records |
+| Rule structure | One rule per attribute interval | One rule per attribute interval |
+| Role in controlled experiments | Reference partition layout | Proposed partition layout |
+
+Partition layout and matching are separate choices. The matched-rule-count control and the full component comparisons provide the empirical evidence; this table describes the designs.

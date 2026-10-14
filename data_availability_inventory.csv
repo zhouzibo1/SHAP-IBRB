@@ -1,0 +1,7 @@
+﻿dataset,route,location,status,rights
+Original benchmark source,reused public source,Kaggle version1; MatSci matching copy,source matching and label interpretation recorded,original source licence remains to be documented
+NLST public clinical source,reused public source,IDC v21 nlst_prsn/screen/ctab/canc; acquisition scripts,download and cohort rebuilding verified,document source reuse and redistribution terms
+Exact processed analysis inputs,public repository,data/original.csv; data/nlst.csv,local candidate included; archive record pending,third-party and processed data rights to be finalized before release
+"Predictions, split members, models and statistics",public repository,predictions; config; models; results; selection,candidate included; exact numerical reconstruction verified,dataset-specific terms and author output licence pending
+Figure and table source values,public repository,source_data; figure_source_mapping.csv; table_source_mapping.csv,candidate included; manuscript figure numbering remains provisional,author licence and source terms pending
+Analysis software,public repository,src; five Python entry points; requirements,candidate included; GitHub and version archive planned,software licence and creator metadata pending

@@ -1,0 +1,41 @@
+{
+  "original": {
+    "SHAP_n": 1000,
+    "IBRB_n": 1000,
+    "outer": "2 repeats x 5 stratified folds, 1000 evaluation rows per fold",
+    "top_k": 7,
+    "upstream": "LightGBM quantile alpha=0.5, 200 rounds, standardized inputs and target",
+    "IG_max_intervals": 20,
+    "IG_parent_n_min": 5,
+    "lambda_grid": [
+      0,
+      0.01,
+      0.05,
+      0.2
+    ],
+    "inner_folds": 3,
+    "CMA_generations": 200,
+    "CMA_sigma": 0.5
+  },
+  "nlst": {
+    "SHAP_n": 1000,
+    "IBRB_n": 1000,
+    "development_n": 5200,
+    "confirmation_n": 1796,
+    "upstream": "binary LightGBM, 200 rounds",
+    "lambda_value": 0.05,
+    "min_child_grid": [
+      10,
+      20,
+      40
+    ],
+    "sigma_grid": [
+      0.15,
+      0.5
+    ],
+    "inner_folds": 3,
+    "primary_seed": 20261003,
+    "CMA_generations": 200
+  },
+  "prediction": "raw class-1 ER probability"
+}

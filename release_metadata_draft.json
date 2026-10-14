@@ -1,0 +1,25 @@
+{
+  "title": "SHAP-guided IBRB reproducibility materials",
+  "version": "candidate-20261012",
+  "status": "local release candidate",
+  "target_journal": "PLOS ONE",
+  "proposed_code_repository": "GitHub",
+  "proposed_fixed_archive": "Zenodo",
+  "creator_list": null,
+  "author_affiliations": null,
+  "code_licence": null,
+  "generated_data_licence": null,
+  "third_party_rights_confirmation": null,
+  "repository_url": null,
+  "archive_DOI": null,
+  "description": "Frozen configurations, split members, fitted models, raw predictions, source values and reconstruction code for original benchmark and patient-level NLST analyses.",
+  "keywords": [
+    "belief rule base",
+    "evidential reasoning",
+    "SHAP",
+    "lung cancer prediction",
+    "reproducibility"
+  ],
+  "published": false,
+  "manuscript_modified": false
+}

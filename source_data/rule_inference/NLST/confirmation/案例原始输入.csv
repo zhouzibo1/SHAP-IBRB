@@ -1,0 +1,5 @@
+﻿pid,age,baseline_nodule_count,index_long_diameter_mm,index_perpendicular_diameter_mm,male,cigsmok,race,index_lobe,index_margin,index_attenuation,label_365d
+122262,70,2,21.0,19.0,1,1,1.0,1,1.0,1.0,1
+119839,57,4,29.0,17.0,0,0,1.0,2,2.0,1.0,1
+212694,67,1,22.0,16.0,1,1,1.0,1,1.0,1.0,0
+105165,66,1,4.0,3.0,0,1,1.0,3,2.0,1.0,0

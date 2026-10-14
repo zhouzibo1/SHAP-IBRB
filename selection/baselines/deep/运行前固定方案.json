@@ -1,0 +1,25 @@
+{
+  "source": "historical_workspace\\补实验\\原数据1000基线公平选参_20261006_175508",
+  "reference": "historical_workspace\\补实验\\原数据1000训练内lambda选择_20261006_005147",
+  "architecture": "unchanged DNN64/32/16 and original two-convolution CNN",
+  "inputs": "same training-only SHAP7",
+  "optimizer": "Adam lr.001 batch32",
+  "epochs": [
+    50,
+    100
+  ],
+  "weight_decay": [
+    0.0,
+    0.001
+  ],
+  "selection": "same inner3 folds,unweighted mean raw Brier;grid order breaks ties",
+  "SHAP": "reuse30 independently checked inner refits and their members",
+  "outer_training_n": 1000,
+  "outer_evaluation_n": 1000,
+  "expected_trajectories": 120,
+  "expected_inner_checkpoints": 240,
+  "expected_final_models": 20,
+  "lock": "all models and choices before outer scoring",
+  "scope": "development CV;old fixed protocols remain sensitivity conditions",
+  "device": "CPU,one torch thread per worker"
+}

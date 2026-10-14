@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rule_models": 21,
+  "rule_rows": 830,
+  "cases": 8,
+  "parameters_match_frozen_models": true,
+  "ER_from_exported_factors_verified": true
+}

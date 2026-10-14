@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-11",
+  "passed": true,
+  "original_retrained_models": 19,
+  "original_maximum_prediction_difference": 0.0,
+  "nlst_confirmation_retrained_conditions": 6,
+  "nlst_maximum_prediction_difference": 0.0,
+  "original_public_downloads": [
+    {
+      "provider": "kaggle",
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/adnananalytics/lung-cancer-prediction-dataset?datasetVersionNumber=1",
+      "rows": 5000,
+      "label_mapping": "YES->1, NO->0; existing numeric labels preserved",
+      "discrete_and_labels_match": true,
+      "maximum_continuous_difference": 4.940005737807951e-09,
+      "frozen_analysis_file_replaced": false
+    },
+    {
+      "provider": "matsci",
+      "source_url": "https://raw.githubusercontent.com/wy314159-lyq/MatSci-ML-Studio1/main/case2.csv",
+      "rows": 5000,
+      "label_mapping": "YES->1, NO->0; existing numeric labels preserved",
+      "discrete_and_labels_match": true,
+      "maximum_continuous_difference": 4.999677116757084e-09,
+      "frozen_analysis_file_replaced": false
+    }
+  ],
+  "nlst_public_download_and_rebuild": {
+    "passed": true,
+    "rows": 6996,
+    "positive": 265,
+    "unique_patient_ids": true,
+    "frozen_analysis_data_match": true,
+    "source": "IDC v21 four public clinical tables"
+  },
+  "migrated_LR_training_passed": true,
+  "all_folds_baseline_retraining_executed": false,
+  "manuscript_modified": false
+}

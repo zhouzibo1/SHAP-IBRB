@@ -1,0 +1,133 @@
+{
+  "candidate_patients": 7090,
+  "first_read_nodule_records": 11783,
+  "first_read_patients": 7088,
+  "eligible_patients": 6996,
+  "positive": 265,
+  "negative": 6731,
+  "status_counts": {
+    "no_confirmed_cancer_with_documented_free_status_beyond_cutoff": 6375,
+    "first_confirmed_diagnosis_after_365_days": 356,
+    "confirmed_diagnosis_within_365_days": 265,
+    "insufficient_outcome_observation": 92
+  },
+  "feature_missing_counts": {
+    "age": 0,
+    "male": 0,
+    "race": 7,
+    "cigsmok": 0,
+    "baseline_nodule_count": 0,
+    "index_long_diameter_mm": 19,
+    "index_perpendicular_diameter_mm": 24,
+    "index_lobe": 0,
+    "index_margin": 346,
+    "index_attenuation": 366
+  },
+  "numeric_summary": {
+    "age": {
+      "count": 6996.0,
+      "mean": 62.016866781017725,
+      "std": 5.161245724587203,
+      "min": 54.0,
+      "25%": 58.0,
+      "50%": 61.0,
+      "75%": 66.0,
+      "max": 74.0
+    },
+    "male": {
+      "count": 6996.0,
+      "mean": 0.5794739851343625,
+      "std": 0.4936787645362207,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "race": {
+      "count": 6989.0,
+      "mean": 1.1456574617255688,
+      "std": 0.676674152313492,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 7.0
+    },
+    "cigsmok": {
+      "count": 6996.0,
+      "mean": 0.4937106918238994,
+      "std": 0.49999617874740676,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "baseline_nodule_count": {
+      "count": 6996.0,
+      "mean": 1.66295025728988,
+      "std": 1.1164656724732864,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 12.0
+    },
+    "index_long_diameter_mm": {
+      "count": 6977.0,
+      "mean": 8.319334957718217,
+      "std": 6.717093183964253,
+      "min": 4.0,
+      "25%": 5.0,
+      "50%": 6.0,
+      "75%": 9.0,
+      "max": 195.0
+    },
+    "index_perpendicular_diameter_mm": {
+      "count": 6972.0,
+      "mean": 6.304647160068847,
+      "std": 4.834915351886452,
+      "min": 1.0,
+      "25%": 4.0,
+      "50%": 5.0,
+      "75%": 7.0,
+      "max": 106.0
+    },
+    "index_lobe": {
+      "count": 6996.0,
+      "mean": 3.1961120640365923,
+      "std": 1.7955920234091696,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 8.0
+    },
+    "index_margin": {
+      "count": 6650.0,
+      "mean": 2.088721804511278,
+      "std": 0.5803798310448974,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 3.0
+    },
+    "index_attenuation": {
+      "count": 6630.0,
+      "mean": 1.3245852187028657,
+      "std": 0.7476510820540022,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 7.0
+    }
+  },
+  "raw_diameter_below_4mm_records": 6,
+  "same_day_diagnoses": 0,
+  "diagnosis_date_status_disagreements": 0,
+  "diagnosed_persons_absent_from_cancer_table": 0,
+  "training_started": false
+}

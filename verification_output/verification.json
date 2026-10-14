@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "original_baseline_conditions": 220,
+  "original_prediction_rows": 220000,
+  "restored_original_models": 10,
+  "restored_nlst_primary_models": 11,
+  "nlst_confirmation_conditions": 9,
+  "maximum_prediction_error": 5.684341886080802e-14,
+  "original_train_test_disjoint": true,
+  "nlst_development_confirmation_disjoint": true,
+  "full_training_rerun": false
+}

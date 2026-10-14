@@ -1,0 +1,18 @@
+{
+  "rule_n": 32,
+  "parameter_coordinates": 128,
+  "attributes": [
+    "SMOKING",
+    "EXPOSURE_TO_POLLUTION",
+    "LONG_TERM_ILLNESS",
+    "ENERGY_LEVEL",
+    "BREATHING_ISSUE",
+    "THROAT_DISCOMFORT",
+    "STRESS_IMMUNE"
+  ],
+  "training_n": 1000,
+  "hard_support_sum": 7000,
+  "interval_membership": "inclusive first lower endpoint; shared boundary assigned to preceding interval",
+  "soft_matching": "continuous midpoint beta/r/w interpolation with constant endpoint extension; categorical hard matching",
+  "model_parameters_unchanged": true
+}

@@ -1,0 +1,43 @@
+{
+  "status": "candidate_dataset_for_review",
+  "source_version": "IDC v21 clinical",
+  "time_zero": "baseline CT (study_yr=0), first-read noncalcified nodule or mass (sct_ab_desc=51)",
+  "horizon_days": 365,
+  "outcome": "confirmed lung cancer diagnosis within 365 days after baseline CT",
+  "negative_definition": "first confirmed diagnosis after cutoff, or no confirmed cancer and documented cancer-free status at/after cutoff",
+  "insufficient_outcome_observation": "exclude from this classification cohort",
+  "canc_free_days_use": "documented status eligibility only; no incidence rate, Cox model, or survival follow-up reconstruction",
+  "index_nodule_rule": "largest available baseline first-read long diameter, tie by abnormality number",
+  "feature_columns": [
+    "age",
+    "male",
+    "race",
+    "cigsmok",
+    "baseline_nodule_count",
+    "index_long_diameter_mm",
+    "index_perpendicular_diameter_mm",
+    "index_lobe",
+    "index_margin",
+    "index_attenuation"
+  ],
+  "nominal_columns": [
+    "race",
+    "index_lobe",
+    "index_margin",
+    "index_attenuation"
+  ],
+  "label_column": "label_365d",
+  "identifier_column": "pid",
+  "encoding_and_imputation": "fit later using training data only",
+  "desired_training_budgets": {
+    "SHAP": 1000,
+    "IBRB": 260,
+    "test": 130
+  },
+  "split_created": true,
+  "split_seed": 20261003,
+  "validation_n": 300,
+  "split_membership_file": "候选划分成员表.csv",
+  "IBRB_training_is_subset_of_SHAP_training": true,
+  "model_adopted_for_manuscript": false
+}

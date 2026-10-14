@@ -1,0 +1,1239 @@
+{
+  "columns": [
+    2,
+    5,
+    7,
+    9,
+    11,
+    14,
+    16
+  ],
+  "seed": 20263044,
+  "lambda_value": 0.05,
+  "K_max": 20,
+  "n_min": 5,
+  "generations": 200,
+  "sigma0": 0.5,
+  "population_multiplier": 1,
+  "matching": "continuous midpoint linear interpolation of beta,r,w; categorical original hard match",
+  "endpoints": "constant extension of continuous first/last midpoint parameters",
+  "fit_info": {
+    "generations": 200,
+    "population": 24,
+    "candidate_evaluations": 4800,
+    "initial_evaluations": 1,
+    "dimension": 128,
+    "sigma0": 0.5,
+    "population_multiplier": 1,
+    "retained_initial_model": false,
+    "trace": [
+      {
+        "generation": 1,
+        "candidate_evaluations": 24,
+        "best_regularized_objective": 0.20495830518995528,
+        "sigma": 0.4796108741713054
+      },
+      {
+        "generation": 2,
+        "candidate_evaluations": 48,
+        "best_regularized_objective": 0.1933819362532504,
+        "sigma": 0.46248692281151926
+      },
+      {
+        "generation": 3,
+        "candidate_evaluations": 72,
+        "best_regularized_objective": 0.1933819362532504,
+        "sigma": 0.4480106004848337
+      },
+      {
+        "generation": 4,
+        "candidate_evaluations": 96,
+        "best_regularized_objective": 0.19149724054188602,
+        "sigma": 0.4353817181414018
+      },
+      {
+        "generation": 5,
+        "candidate_evaluations": 120,
+        "best_regularized_objective": 0.17558530883050583,
+        "sigma": 0.4236455857181596
+      },
+      {
+        "generation": 6,
+        "candidate_evaluations": 144,
+        "best_regularized_objective": 0.1697330757542913,
+        "sigma": 0.41214968159818327
+      },
+      {
+        "generation": 7,
+        "candidate_evaluations": 168,
+        "best_regularized_objective": 0.1697330757542913,
+        "sigma": 0.401080299566223
+      },
+      {
+        "generation": 8,
+        "candidate_evaluations": 192,
+        "best_regularized_objective": 0.16915782172108185,
+        "sigma": 0.39009136329754596
+      },
+      {
+        "generation": 9,
+        "candidate_evaluations": 216,
+        "best_regularized_objective": 0.15940658227343893,
+        "sigma": 0.37909331668980073
+      },
+      {
+        "generation": 10,
+        "candidate_evaluations": 240,
+        "best_regularized_objective": 0.15806497227372823,
+        "sigma": 0.36835460704138256
+      },
+      {
+        "generation": 11,
+        "candidate_evaluations": 264,
+        "best_regularized_objective": 0.15806497227372823,
+        "sigma": 0.3581101513754315
+      },
+      {
+        "generation": 12,
+        "candidate_evaluations": 288,
+        "best_regularized_objective": 0.15806497227372823,
+        "sigma": 0.34701189640850033
+      },
+      {
+        "generation": 13,
+        "candidate_evaluations": 312,
+        "best_regularized_objective": 0.15806497227372823,
+        "sigma": 0.3373574358064915
+      },
+      {
+        "generation": 14,
+        "candidate_evaluations": 336,
+        "best_regularized_objective": 0.15806497227372823,
+        "sigma": 0.3274742690039656
+      },
+      {
+        "generation": 15,
+        "candidate_evaluations": 360,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.3177203863956076
+      },
+      {
+        "generation": 16,
+        "candidate_evaluations": 384,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.30893807691382336
+      },
+      {
+        "generation": 17,
+        "candidate_evaluations": 408,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.30009351236626475
+      },
+      {
+        "generation": 18,
+        "candidate_evaluations": 432,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.2912526565389211
+      },
+      {
+        "generation": 19,
+        "candidate_evaluations": 456,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.2823671416220476
+      },
+      {
+        "generation": 20,
+        "candidate_evaluations": 480,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.27373231181102575
+      },
+      {
+        "generation": 21,
+        "candidate_evaluations": 504,
+        "best_regularized_objective": 0.14552093964307622,
+        "sigma": 0.2658870270328825
+      },
+      {
+        "generation": 22,
+        "candidate_evaluations": 528,
+        "best_regularized_objective": 0.1444774809026599,
+        "sigma": 0.2582668942075256
+      },
+      {
+        "generation": 23,
+        "candidate_evaluations": 552,
+        "best_regularized_objective": 0.1444774809026599,
+        "sigma": 0.2514690472642829
+      },
+      {
+        "generation": 24,
+        "candidate_evaluations": 576,
+        "best_regularized_objective": 0.13827349614222528,
+        "sigma": 0.24473885947174626
+      },
+      {
+        "generation": 25,
+        "candidate_evaluations": 600,
+        "best_regularized_objective": 0.13827349614222528,
+        "sigma": 0.2384339955860732
+      },
+      {
+        "generation": 26,
+        "candidate_evaluations": 624,
+        "best_regularized_objective": 0.13827349614222528,
+        "sigma": 0.232814290302188
+      },
+      {
+        "generation": 27,
+        "candidate_evaluations": 648,
+        "best_regularized_objective": 0.13621234690684517,
+        "sigma": 0.22703915200724473
+      },
+      {
+        "generation": 28,
+        "candidate_evaluations": 672,
+        "best_regularized_objective": 0.1358931108350896,
+        "sigma": 0.22126823876531637
+      },
+      {
+        "generation": 29,
+        "candidate_evaluations": 696,
+        "best_regularized_objective": 0.1316533522702251,
+        "sigma": 0.21583420966567032
+      },
+      {
+        "generation": 30,
+        "candidate_evaluations": 720,
+        "best_regularized_objective": 0.1316533522702251,
+        "sigma": 0.2097267416140543
+      },
+      {
+        "generation": 31,
+        "candidate_evaluations": 744,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.20366004207410748
+      },
+      {
+        "generation": 32,
+        "candidate_evaluations": 768,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.19746434143827207
+      },
+      {
+        "generation": 33,
+        "candidate_evaluations": 792,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.19198240159866603
+      },
+      {
+        "generation": 34,
+        "candidate_evaluations": 816,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.18668044593847882
+      },
+      {
+        "generation": 35,
+        "candidate_evaluations": 840,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.18168683747399378
+      },
+      {
+        "generation": 36,
+        "candidate_evaluations": 864,
+        "best_regularized_objective": 0.12306402673487093,
+        "sigma": 0.17708774540476394
+      },
+      {
+        "generation": 37,
+        "candidate_evaluations": 888,
+        "best_regularized_objective": 0.12265188007181,
+        "sigma": 0.1728602206961958
+      },
+      {
+        "generation": 38,
+        "candidate_evaluations": 912,
+        "best_regularized_objective": 0.12265188007181,
+        "sigma": 0.16882647276186913
+      },
+      {
+        "generation": 39,
+        "candidate_evaluations": 936,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.16504562035304227
+      },
+      {
+        "generation": 40,
+        "candidate_evaluations": 960,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.16119216785619428
+      },
+      {
+        "generation": 41,
+        "candidate_evaluations": 984,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.15751645416666443
+      },
+      {
+        "generation": 42,
+        "candidate_evaluations": 1008,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.1541322725623957
+      },
+      {
+        "generation": 43,
+        "candidate_evaluations": 1032,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.15055532800953178
+      },
+      {
+        "generation": 44,
+        "candidate_evaluations": 1056,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.14675650267228
+      },
+      {
+        "generation": 45,
+        "candidate_evaluations": 1080,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.14328576799203163
+      },
+      {
+        "generation": 46,
+        "candidate_evaluations": 1104,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.1401008158607271
+      },
+      {
+        "generation": 47,
+        "candidate_evaluations": 1128,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.13686914422411686
+      },
+      {
+        "generation": 48,
+        "candidate_evaluations": 1152,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.1335503074015683
+      },
+      {
+        "generation": 49,
+        "candidate_evaluations": 1176,
+        "best_regularized_objective": 0.11579806468398926,
+        "sigma": 0.13032934144844346
+      },
+      {
+        "generation": 50,
+        "candidate_evaluations": 1200,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.12783219539462629
+      },
+      {
+        "generation": 51,
+        "candidate_evaluations": 1224,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.1254415395390474
+      },
+      {
+        "generation": 52,
+        "candidate_evaluations": 1248,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.12294011471266027
+      },
+      {
+        "generation": 53,
+        "candidate_evaluations": 1272,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.12025740623809796
+      },
+      {
+        "generation": 54,
+        "candidate_evaluations": 1296,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.11782918837355896
+      },
+      {
+        "generation": 55,
+        "candidate_evaluations": 1320,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.1157564467559573
+      },
+      {
+        "generation": 56,
+        "candidate_evaluations": 1344,
+        "best_regularized_objective": 0.1130498977621992,
+        "sigma": 0.11366361334024729
+      },
+      {
+        "generation": 57,
+        "candidate_evaluations": 1368,
+        "best_regularized_objective": 0.11059249817328444,
+        "sigma": 0.11168351073653993
+      },
+      {
+        "generation": 58,
+        "candidate_evaluations": 1392,
+        "best_regularized_objective": 0.11059249817328444,
+        "sigma": 0.10972497422543884
+      },
+      {
+        "generation": 59,
+        "candidate_evaluations": 1416,
+        "best_regularized_objective": 0.11059249817328444,
+        "sigma": 0.10756894702199081
+      },
+      {
+        "generation": 60,
+        "candidate_evaluations": 1440,
+        "best_regularized_objective": 0.11059249817328444,
+        "sigma": 0.1054924072318756
+      },
+      {
+        "generation": 61,
+        "candidate_evaluations": 1464,
+        "best_regularized_objective": 0.11059249817328444,
+        "sigma": 0.10344194300833547
+      },
+      {
+        "generation": 62,
+        "candidate_evaluations": 1488,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.10149168530911874
+      },
+      {
+        "generation": 63,
+        "candidate_evaluations": 1512,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09978296488512314
+      },
+      {
+        "generation": 64,
+        "candidate_evaluations": 1536,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09806876614072577
+      },
+      {
+        "generation": 65,
+        "candidate_evaluations": 1560,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09648198686970615
+      },
+      {
+        "generation": 66,
+        "candidate_evaluations": 1584,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.0954163434930947
+      },
+      {
+        "generation": 67,
+        "candidate_evaluations": 1608,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09431365337098853
+      },
+      {
+        "generation": 68,
+        "candidate_evaluations": 1632,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09323537329624156
+      },
+      {
+        "generation": 69,
+        "candidate_evaluations": 1656,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09214406119614135
+      },
+      {
+        "generation": 70,
+        "candidate_evaluations": 1680,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.09103498938794646
+      },
+      {
+        "generation": 71,
+        "candidate_evaluations": 1704,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.08994555177341927
+      },
+      {
+        "generation": 72,
+        "candidate_evaluations": 1728,
+        "best_regularized_objective": 0.10906398106649803,
+        "sigma": 0.0891610566940066
+      },
+      {
+        "generation": 73,
+        "candidate_evaluations": 1752,
+        "best_regularized_objective": 0.10825029769657737,
+        "sigma": 0.088344875838887
+      },
+      {
+        "generation": 74,
+        "candidate_evaluations": 1776,
+        "best_regularized_objective": 0.10825029769657737,
+        "sigma": 0.08769416733168893
+      },
+      {
+        "generation": 75,
+        "candidate_evaluations": 1800,
+        "best_regularized_objective": 0.1080313929460285,
+        "sigma": 0.08701157830498335
+      },
+      {
+        "generation": 76,
+        "candidate_evaluations": 1824,
+        "best_regularized_objective": 0.1080313929460285,
+        "sigma": 0.08603564176272895
+      },
+      {
+        "generation": 77,
+        "candidate_evaluations": 1848,
+        "best_regularized_objective": 0.10762971503435945,
+        "sigma": 0.08501556866453519
+      },
+      {
+        "generation": 78,
+        "candidate_evaluations": 1872,
+        "best_regularized_objective": 0.10762971503435945,
+        "sigma": 0.08416172271342812
+      },
+      {
+        "generation": 79,
+        "candidate_evaluations": 1896,
+        "best_regularized_objective": 0.10762971503435945,
+        "sigma": 0.0832773130834542
+      },
+      {
+        "generation": 80,
+        "candidate_evaluations": 1920,
+        "best_regularized_objective": 0.10762971503435945,
+        "sigma": 0.08254993826879578
+      },
+      {
+        "generation": 81,
+        "candidate_evaluations": 1944,
+        "best_regularized_objective": 0.10605663672575073,
+        "sigma": 0.08183107748083761
+      },
+      {
+        "generation": 82,
+        "candidate_evaluations": 1968,
+        "best_regularized_objective": 0.10605663672575073,
+        "sigma": 0.08111139838117071
+      },
+      {
+        "generation": 83,
+        "candidate_evaluations": 1992,
+        "best_regularized_objective": 0.10605663672575073,
+        "sigma": 0.0804158255594622
+      },
+      {
+        "generation": 84,
+        "candidate_evaluations": 2016,
+        "best_regularized_objective": 0.10605663672575073,
+        "sigma": 0.07958365462136492
+      },
+      {
+        "generation": 85,
+        "candidate_evaluations": 2040,
+        "best_regularized_objective": 0.10605663672575073,
+        "sigma": 0.0788922257091091
+      },
+      {
+        "generation": 86,
+        "candidate_evaluations": 2064,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07807504219099806
+      },
+      {
+        "generation": 87,
+        "candidate_evaluations": 2088,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07725091251429622
+      },
+      {
+        "generation": 88,
+        "candidate_evaluations": 2112,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07617370036752077
+      },
+      {
+        "generation": 89,
+        "candidate_evaluations": 2136,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.0750521185266003
+      },
+      {
+        "generation": 90,
+        "candidate_evaluations": 2160,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07394267913646564
+      },
+      {
+        "generation": 91,
+        "candidate_evaluations": 2184,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07276395181143062
+      },
+      {
+        "generation": 92,
+        "candidate_evaluations": 2208,
+        "best_regularized_objective": 0.10575825439164104,
+        "sigma": 0.07141376713531694
+      },
+      {
+        "generation": 93,
+        "candidate_evaluations": 2232,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.07005566751613766
+      },
+      {
+        "generation": 94,
+        "candidate_evaluations": 2256,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06880629237607462
+      },
+      {
+        "generation": 95,
+        "candidate_evaluations": 2280,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06766547892218766
+      },
+      {
+        "generation": 96,
+        "candidate_evaluations": 2304,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06663936886118582
+      },
+      {
+        "generation": 97,
+        "candidate_evaluations": 2328,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06551127108317918
+      },
+      {
+        "generation": 98,
+        "candidate_evaluations": 2352,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06422059054867972
+      },
+      {
+        "generation": 99,
+        "candidate_evaluations": 2376,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06302999706018876
+      },
+      {
+        "generation": 100,
+        "candidate_evaluations": 2400,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06175228205022473
+      },
+      {
+        "generation": 101,
+        "candidate_evaluations": 2424,
+        "best_regularized_objective": 0.1049367351566166,
+        "sigma": 0.06065158093005322
+      },
+      {
+        "generation": 102,
+        "candidate_evaluations": 2448,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.05955992811285999
+      },
+      {
+        "generation": 103,
+        "candidate_evaluations": 2472,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.0586212793007754
+      },
+      {
+        "generation": 104,
+        "candidate_evaluations": 2496,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.05768183898162275
+      },
+      {
+        "generation": 105,
+        "candidate_evaluations": 2520,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.05686918869364002
+      },
+      {
+        "generation": 106,
+        "candidate_evaluations": 2544,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.056159805932625116
+      },
+      {
+        "generation": 107,
+        "candidate_evaluations": 2568,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.05541143091540961
+      },
+      {
+        "generation": 108,
+        "candidate_evaluations": 2592,
+        "best_regularized_objective": 0.10366146966580383,
+        "sigma": 0.05444551145187064
+      },
+      {
+        "generation": 109,
+        "candidate_evaluations": 2616,
+        "best_regularized_objective": 0.10352324574585971,
+        "sigma": 0.053595537260377496
+      },
+      {
+        "generation": 110,
+        "candidate_evaluations": 2640,
+        "best_regularized_objective": 0.10352324574585971,
+        "sigma": 0.052644617834283765
+      },
+      {
+        "generation": 111,
+        "candidate_evaluations": 2664,
+        "best_regularized_objective": 0.10328217265862838,
+        "sigma": 0.051579881926922325
+      },
+      {
+        "generation": 112,
+        "candidate_evaluations": 2688,
+        "best_regularized_objective": 0.1026097764743402,
+        "sigma": 0.05072642723500617
+      },
+      {
+        "generation": 113,
+        "candidate_evaluations": 2712,
+        "best_regularized_objective": 0.1026097764743402,
+        "sigma": 0.05002665046344681
+      },
+      {
+        "generation": 114,
+        "candidate_evaluations": 2736,
+        "best_regularized_objective": 0.10254303396814851,
+        "sigma": 0.049271519361251646
+      },
+      {
+        "generation": 115,
+        "candidate_evaluations": 2760,
+        "best_regularized_objective": 0.10145490973599738,
+        "sigma": 0.04862944286177228
+      },
+      {
+        "generation": 116,
+        "candidate_evaluations": 2784,
+        "best_regularized_objective": 0.10111479488822644,
+        "sigma": 0.04811045270380259
+      },
+      {
+        "generation": 117,
+        "candidate_evaluations": 2808,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04757896517893738
+      },
+      {
+        "generation": 118,
+        "candidate_evaluations": 2832,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.0468855363185774
+      },
+      {
+        "generation": 119,
+        "candidate_evaluations": 2856,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.0462284010935316
+      },
+      {
+        "generation": 120,
+        "candidate_evaluations": 2880,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04556321182584206
+      },
+      {
+        "generation": 121,
+        "candidate_evaluations": 2904,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04497121944085155
+      },
+      {
+        "generation": 122,
+        "candidate_evaluations": 2928,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.044320627408048395
+      },
+      {
+        "generation": 123,
+        "candidate_evaluations": 2952,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04380015229607251
+      },
+      {
+        "generation": 124,
+        "candidate_evaluations": 2976,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.043228855683682114
+      },
+      {
+        "generation": 125,
+        "candidate_evaluations": 3000,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04274237577728243
+      },
+      {
+        "generation": 126,
+        "candidate_evaluations": 3024,
+        "best_regularized_objective": 0.10105353056422127,
+        "sigma": 0.04224485045396066
+      },
+      {
+        "generation": 127,
+        "candidate_evaluations": 3048,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04181274754070114
+      },
+      {
+        "generation": 128,
+        "candidate_evaluations": 3072,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04142149846540305
+      },
+      {
+        "generation": 129,
+        "candidate_evaluations": 3096,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04094904654089927
+      },
+      {
+        "generation": 130,
+        "candidate_evaluations": 3120,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04059851296594144
+      },
+      {
+        "generation": 131,
+        "candidate_evaluations": 3144,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04035331216929444
+      },
+      {
+        "generation": 132,
+        "candidate_evaluations": 3168,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.04006902844726094
+      },
+      {
+        "generation": 133,
+        "candidate_evaluations": 3192,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.03985553093638062
+      },
+      {
+        "generation": 134,
+        "candidate_evaluations": 3216,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.039528817145979216
+      },
+      {
+        "generation": 135,
+        "candidate_evaluations": 3240,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.03918673971594576
+      },
+      {
+        "generation": 136,
+        "candidate_evaluations": 3264,
+        "best_regularized_objective": 0.10104602750844101,
+        "sigma": 0.03879992359014365
+      },
+      {
+        "generation": 137,
+        "candidate_evaluations": 3288,
+        "best_regularized_objective": 0.10056519740918801,
+        "sigma": 0.03843544304878485
+      },
+      {
+        "generation": 138,
+        "candidate_evaluations": 3312,
+        "best_regularized_objective": 0.10056519740918801,
+        "sigma": 0.03800992329113644
+      },
+      {
+        "generation": 139,
+        "candidate_evaluations": 3336,
+        "best_regularized_objective": 0.10056519740918801,
+        "sigma": 0.03756283695522131
+      },
+      {
+        "generation": 140,
+        "candidate_evaluations": 3360,
+        "best_regularized_objective": 0.10056519740918801,
+        "sigma": 0.03713928540440743
+      },
+      {
+        "generation": 141,
+        "candidate_evaluations": 3384,
+        "best_regularized_objective": 0.10056519740918801,
+        "sigma": 0.03664890899269346
+      },
+      {
+        "generation": 142,
+        "candidate_evaluations": 3408,
+        "best_regularized_objective": 0.0994770389517922,
+        "sigma": 0.03617602967112193
+      },
+      {
+        "generation": 143,
+        "candidate_evaluations": 3432,
+        "best_regularized_objective": 0.0994770389517922,
+        "sigma": 0.035695495369730844
+      },
+      {
+        "generation": 144,
+        "candidate_evaluations": 3456,
+        "best_regularized_objective": 0.0994770389517922,
+        "sigma": 0.03527997594244638
+      },
+      {
+        "generation": 145,
+        "candidate_evaluations": 3480,
+        "best_regularized_objective": 0.0994770389517922,
+        "sigma": 0.03481031087266046
+      },
+      {
+        "generation": 146,
+        "candidate_evaluations": 3504,
+        "best_regularized_objective": 0.0994770389517922,
+        "sigma": 0.0343474886414075
+      },
+      {
+        "generation": 147,
+        "candidate_evaluations": 3528,
+        "best_regularized_objective": 0.09936851288872896,
+        "sigma": 0.033879662156401064
+      },
+      {
+        "generation": 148,
+        "candidate_evaluations": 3552,
+        "best_regularized_objective": 0.09936851288872896,
+        "sigma": 0.033466498490410605
+      },
+      {
+        "generation": 149,
+        "candidate_evaluations": 3576,
+        "best_regularized_objective": 0.09849703980080945,
+        "sigma": 0.033090730409646066
+      },
+      {
+        "generation": 150,
+        "candidate_evaluations": 3600,
+        "best_regularized_objective": 0.09849703980080945,
+        "sigma": 0.032822798851712486
+      },
+      {
+        "generation": 151,
+        "candidate_evaluations": 3624,
+        "best_regularized_objective": 0.09849703980080945,
+        "sigma": 0.03255029882061097
+      },
+      {
+        "generation": 152,
+        "candidate_evaluations": 3648,
+        "best_regularized_objective": 0.09798370782999512,
+        "sigma": 0.03229209372566554
+      },
+      {
+        "generation": 153,
+        "candidate_evaluations": 3672,
+        "best_regularized_objective": 0.09798370782999512,
+        "sigma": 0.03212165129671915
+      },
+      {
+        "generation": 154,
+        "candidate_evaluations": 3696,
+        "best_regularized_objective": 0.09798370782999512,
+        "sigma": 0.03187165183701447
+      },
+      {
+        "generation": 155,
+        "candidate_evaluations": 3720,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.03156967946792942
+      },
+      {
+        "generation": 156,
+        "candidate_evaluations": 3744,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.031239330909498604
+      },
+      {
+        "generation": 157,
+        "candidate_evaluations": 3768,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.031027147249138846
+      },
+      {
+        "generation": 158,
+        "candidate_evaluations": 3792,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.03082100526418248
+      },
+      {
+        "generation": 159,
+        "candidate_evaluations": 3816,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.030609801187430837
+      },
+      {
+        "generation": 160,
+        "candidate_evaluations": 3840,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.030417934838582298
+      },
+      {
+        "generation": 161,
+        "candidate_evaluations": 3864,
+        "best_regularized_objective": 0.09778812580946482,
+        "sigma": 0.03011162734550504
+      },
+      {
+        "generation": 162,
+        "candidate_evaluations": 3888,
+        "best_regularized_objective": 0.09774205747297125,
+        "sigma": 0.029779812525161903
+      },
+      {
+        "generation": 163,
+        "candidate_evaluations": 3912,
+        "best_regularized_objective": 0.09774205747297125,
+        "sigma": 0.029380546781015024
+      },
+      {
+        "generation": 164,
+        "candidate_evaluations": 3936,
+        "best_regularized_objective": 0.09774205747297125,
+        "sigma": 0.029094648841769703
+      },
+      {
+        "generation": 165,
+        "candidate_evaluations": 3960,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.02881660798458595
+      },
+      {
+        "generation": 166,
+        "candidate_evaluations": 3984,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.028527830750718138
+      },
+      {
+        "generation": 167,
+        "candidate_evaluations": 4008,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.02827954087326845
+      },
+      {
+        "generation": 168,
+        "candidate_evaluations": 4032,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.028043459622320657
+      },
+      {
+        "generation": 169,
+        "candidate_evaluations": 4056,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.027830931658190335
+      },
+      {
+        "generation": 170,
+        "candidate_evaluations": 4080,
+        "best_regularized_objective": 0.09709556956415233,
+        "sigma": 0.02751963990069022
+      },
+      {
+        "generation": 171,
+        "candidate_evaluations": 4104,
+        "best_regularized_objective": 0.09701155312982483,
+        "sigma": 0.027260820308469016
+      },
+      {
+        "generation": 172,
+        "candidate_evaluations": 4128,
+        "best_regularized_objective": 0.09701155312982483,
+        "sigma": 0.02710398890060205
+      },
+      {
+        "generation": 173,
+        "candidate_evaluations": 4152,
+        "best_regularized_objective": 0.09701155312982483,
+        "sigma": 0.026902817995397253
+      },
+      {
+        "generation": 174,
+        "candidate_evaluations": 4176,
+        "best_regularized_objective": 0.09701155312982483,
+        "sigma": 0.026660158516976243
+      },
+      {
+        "generation": 175,
+        "candidate_evaluations": 4200,
+        "best_regularized_objective": 0.09662891919270451,
+        "sigma": 0.02651118803320041
+      },
+      {
+        "generation": 176,
+        "candidate_evaluations": 4224,
+        "best_regularized_objective": 0.09662891919270451,
+        "sigma": 0.026308572339051078
+      },
+      {
+        "generation": 177,
+        "candidate_evaluations": 4248,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.026093983190656398
+      },
+      {
+        "generation": 178,
+        "candidate_evaluations": 4272,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.025829800835510442
+      },
+      {
+        "generation": 179,
+        "candidate_evaluations": 4296,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.025540700807539306
+      },
+      {
+        "generation": 180,
+        "candidate_evaluations": 4320,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.025310982147519135
+      },
+      {
+        "generation": 181,
+        "candidate_evaluations": 4344,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02513401167938129
+      },
+      {
+        "generation": 182,
+        "candidate_evaluations": 4368,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024966731947689065
+      },
+      {
+        "generation": 183,
+        "candidate_evaluations": 4392,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024852804575872845
+      },
+      {
+        "generation": 184,
+        "candidate_evaluations": 4416,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024724759503425203
+      },
+      {
+        "generation": 185,
+        "candidate_evaluations": 4440,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.0246413372779606
+      },
+      {
+        "generation": 186,
+        "candidate_evaluations": 4464,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024554725336738005
+      },
+      {
+        "generation": 187,
+        "candidate_evaluations": 4488,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02445223217424742
+      },
+      {
+        "generation": 188,
+        "candidate_evaluations": 4512,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02437391032239054
+      },
+      {
+        "generation": 189,
+        "candidate_evaluations": 4536,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024258177942432763
+      },
+      {
+        "generation": 190,
+        "candidate_evaluations": 4560,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.024122983602358074
+      },
+      {
+        "generation": 191,
+        "candidate_evaluations": 4584,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.023913331837069736
+      },
+      {
+        "generation": 192,
+        "candidate_evaluations": 4608,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.023678941280667602
+      },
+      {
+        "generation": 193,
+        "candidate_evaluations": 4632,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.023540817595860603
+      },
+      {
+        "generation": 194,
+        "candidate_evaluations": 4656,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02344873325947588
+      },
+      {
+        "generation": 195,
+        "candidate_evaluations": 4680,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.023326570409345368
+      },
+      {
+        "generation": 196,
+        "candidate_evaluations": 4704,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.0231526745035134
+      },
+      {
+        "generation": 197,
+        "candidate_evaluations": 4728,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.022932375609520255
+      },
+      {
+        "generation": 198,
+        "candidate_evaluations": 4752,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02271997387217679
+      },
+      {
+        "generation": 199,
+        "candidate_evaluations": 4776,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.022520073987146953
+      },
+      {
+        "generation": 200,
+        "candidate_evaluations": 4800,
+        "best_regularized_objective": 0.0961551794889198,
+        "sigma": 0.02227248613542821
+      }
+    ],
+    "regularized_objective": 0.0961551794889198,
+    "initial_regularized_objective": 0.20495830518995528,
+    "training_mse": 0.09345670402982924,
+    "initial_training_mse": 0.20046462424619124,
+    "smoothness_penalty": 0.05396950918181126,
+    "initial_smoothness_penalty": 0.08987361887528074,
+    "objective_name": "soft matching training MSE + lambda*continuous neighbor squared parameter differences"
+  }
+}

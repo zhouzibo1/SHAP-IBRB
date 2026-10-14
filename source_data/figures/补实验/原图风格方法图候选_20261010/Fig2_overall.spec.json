@@ -1,0 +1,873 @@
+{
+  "figure": "Fig2_overall",
+  "canvas": [
+    18,
+    23.6
+  ],
+  "width_mm": 180,
+  "height_mm": 236.0,
+  "nodes": [
+    {
+      "id": "partition",
+      "label": "Original benchmark: two repeats of stratified five-fold evaluation\nEach fold: 4,000 training-pool records; 1,000 held-out evaluation records",
+      "xy": [
+        0.3,
+        22.3
+      ],
+      "size": [
+        17.3,
+        1.0
+      ],
+      "shape": "rect",
+      "color": "#E2EFFB",
+      "edgecolor": "#5B9BD5",
+      "font_pt": 8.5
+    },
+    {
+      "id": "stage1",
+      "label": "Training data\nand SHAP\nfeature selection",
+      "xy": [
+        0.3,
+        19.1
+      ],
+      "size": [
+        3.3,
+        1.8
+      ],
+      "shape": "rect",
+      "color": "#E2EFFB",
+      "edgecolor": "#8EB4E3",
+      "font_pt": 8.5
+    },
+    {
+      "id": "stage2",
+      "label": "Interval structure\nand rule-parameter\nlearning",
+      "xy": [
+        0.3,
+        12.2
+      ],
+      "size": [
+        3.3,
+        1.8
+      ],
+      "shape": "rect",
+      "color": "#F5EAF2",
+      "edgecolor": "#C576B8",
+      "font_pt": 8.5
+    },
+    {
+      "id": "stage3",
+      "label": "Frozen model\nand held-out\nevaluation inputs",
+      "xy": [
+        0.3,
+        3.55
+      ],
+      "size": [
+        3.3,
+        1.8
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "#80AA55",
+      "font_pt": 8.5
+    },
+    {
+      "id": "blueheader0",
+      "label": "Training input",
+      "xy": [
+        4.8,
+        20.35
+      ],
+      "size": [
+        3.8,
+        1.0
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#4472C4",
+      "font_pt": 8.5
+    },
+    {
+      "id": "bluebody0",
+      "label": "Select 1,000 records\nfrom the training pool.\nUse 17 original inputs.",
+      "xy": [
+        4.8,
+        18.1
+      ],
+      "size": [
+        3.8,
+        1.85
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#4472C4",
+      "font_pt": 8
+    },
+    {
+      "id": "blueheader1",
+      "label": "LightGBM + TreeSHAP",
+      "xy": [
+        9.05,
+        20.35
+      ],
+      "size": [
+        3.8,
+        1.0
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#4472C4",
+      "font_pt": 8.5
+    },
+    {
+      "id": "bluebody1",
+      "label": "Fit the upstream model\non these records; rank\nmean absolute SHAP.",
+      "xy": [
+        9.05,
+        18.1
+      ],
+      "size": [
+        3.8,
+        1.85
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#4472C4",
+      "font_pt": 8
+    },
+    {
+      "id": "blueheader2",
+      "label": "Feature selection",
+      "xy": [
+        13.3,
+        20.35
+      ],
+      "size": [
+        3.8,
+        1.0
+      ],
+      "shape": "rect",
+      "color": "#9DC3E6",
+      "edgecolor": "#4472C4",
+      "font_pt": 8.5
+    },
+    {
+      "id": "bluebody2",
+      "label": "Select seven inputs.\nPass their raw values\nto IBRB learning.",
+      "xy": [
+        13.3,
+        18.1
+      ],
+      "size": [
+        3.8,
+        1.85
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#4472C4",
+      "font_pt": 8
+    },
+    {
+      "id": "train",
+      "label": "Seven selected\ntraining inputs\nand labels",
+      "xy": [
+        4.8,
+        14.4
+      ],
+      "size": [
+        3.6,
+        1.95
+      ],
+      "shape": "ellipse",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "candidate",
+      "label": "Generate\ncandidate\nmidpoints",
+      "xy": [
+        9.0,
+        14.4
+      ],
+      "size": [
+        3.6,
+        1.95
+      ],
+      "shape": "ellipse",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "gain",
+      "label": "Calculate gain\nand insert the\nbest positive split",
+      "xy": [
+        13.2,
+        14.4
+      ],
+      "size": [
+        3.6,
+        1.95
+      ],
+      "shape": "ellipse",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "stop",
+      "label": "Stop\npartitioning?",
+      "xy": [
+        9.25,
+        11.65
+      ],
+      "size": [
+        3.65,
+        2.0
+      ],
+      "shape": "diamond",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "boundaries",
+      "label": "Return unique\nsorted interval\nboundaries",
+      "xy": [
+        4.8,
+        11.65
+      ],
+      "size": [
+        3.6,
+        2
+      ],
+      "shape": "ellipse",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "rule0",
+      "label": "One rule per\nattribute interval\nL = sum of interval counts",
+      "xy": [
+        4.8,
+        9.4
+      ],
+      "size": [
+        4.0,
+        1.4
+      ],
+      "shape": "rect",
+      "color": "#E7C5DF",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "rule1",
+      "label": "Initialize beliefs,\nreliability and weights",
+      "xy": [
+        9.35,
+        9.4
+      ],
+      "size": [
+        3.4,
+        1.4
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "rule2",
+      "label": "Learn rule parameters\nwith CMA-ES",
+      "xy": [
+        13.3,
+        9.4
+      ],
+      "size": [
+        3.7,
+        1.4
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#C576B8",
+      "font_pt": 8
+    },
+    {
+      "id": "inner",
+      "label": "Training-only three-fold selection of lambda\nRefit SHAP, intervals and CMA in each split;\nselect by mean validation Brier.",
+      "xy": [
+        4.8,
+        7.35
+      ],
+      "size": [
+        5.65,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "#F5EAF2",
+      "edgecolor": "#C576B8",
+      "font_pt": 7.8
+    },
+    {
+      "id": "final_fit",
+      "label": "Refit with selected lambda on all 1,000 records\nCMA objective: training Brier\n+ lambda x adjacent-rule smoothness",
+      "xy": [
+        11.1,
+        7.35
+      ],
+      "size": [
+        5.9,
+        1.5
+      ],
+      "shape": "rect",
+      "color": "#F5EAF2",
+      "edgecolor": "#C576B8",
+      "font_pt": 7.8
+    },
+    {
+      "id": "frozen",
+      "label": "Freeze selected inputs, interval boundaries and learned parameters",
+      "xy": [
+        4.8,
+        5.5
+      ],
+      "size": [
+        12.2,
+        0.6
+      ],
+      "shape": "rect",
+      "color": "#ABD083",
+      "edgecolor": "#80AA55",
+      "font_pt": 8.5
+    },
+    {
+      "id": "inference0",
+      "label": "Evidence acquisition\nContinuous interpolation;\nbinary interval lookup",
+      "xy": [
+        4.8,
+        3.6
+      ],
+      "size": [
+        3.7,
+        1.25
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#80AA55",
+      "font_pt": 7.8
+    },
+    {
+      "id": "inference1",
+      "label": "Weighted evidence\nRule weights\nand reliability",
+      "xy": [
+        9.05,
+        3.6
+      ],
+      "size": [
+        3.7,
+        1.25
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#80AA55",
+      "font_pt": 7.8
+    },
+    {
+      "id": "inference2",
+      "label": "ER aggregation\nFused two-class\nbelief distribution",
+      "xy": [
+        13.3,
+        3.6
+      ],
+      "size": [
+        3.7,
+        1.25
+      ],
+      "shape": "rect",
+      "color": "white",
+      "edgecolor": "#80AA55",
+      "font_pt": 7.8
+    },
+    {
+      "id": "score",
+      "label": "Expected utility: fused positive-class score, with u(0)=0 and u(1)=1",
+      "xy": [
+        4.8,
+        2.15
+      ],
+      "size": [
+        12.2,
+        0.8
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "#80AA55",
+      "font_pt": 8
+    },
+    {
+      "id": "metrics",
+      "label": "Evaluate the held-out 1,000 records: accuracy, ROC AUC, Brier and calibration",
+      "xy": [
+        4.8,
+        0.8
+      ],
+      "size": [
+        12.2,
+        0.8
+      ],
+      "shape": "rect",
+      "color": "#E9F2E5",
+      "edgecolor": "#80AA55",
+      "font_pt": 8
+    }
+  ],
+  "edges": [
+    {
+      "id": "stage1to2",
+      "points": [
+        [
+          1.95,
+          19.1
+        ],
+        [
+          1.95,
+          14
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stage2to3",
+      "points": [
+        [
+          1.95,
+          12.2
+        ],
+        [
+          1.95,
+          5.35
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stage_entry_20",
+      "points": [
+        [
+          3.6,
+          20
+        ],
+        [
+          4.4,
+          20
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stage_entry_13.1",
+      "points": [
+        [
+          3.6,
+          13.1
+        ],
+        [
+          4.4,
+          13.1
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stage_entry_4.45",
+      "points": [
+        [
+          3.6,
+          4.45
+        ],
+        [
+          4.4,
+          4.45
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "bluevert0",
+      "points": [
+        [
+          6.699999999999999,
+          20.35
+        ],
+        [
+          6.699999999999999,
+          19.95
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "blueflow0",
+      "points": [
+        [
+          8.6,
+          20.85
+        ],
+        [
+          9.05,
+          20.85
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "bluevert1",
+      "points": [
+        [
+          10.950000000000001,
+          20.35
+        ],
+        [
+          10.950000000000001,
+          19.95
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "blueflow1",
+      "points": [
+        [
+          12.850000000000001,
+          20.85
+        ],
+        [
+          13.3,
+          20.85
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "bluevert2",
+      "points": [
+        [
+          15.200000000000001,
+          20.35
+        ],
+        [
+          15.200000000000001,
+          19.95
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "partition_to_training",
+      "points": [
+        [
+          6.7,
+          22.3
+        ],
+        [
+          6.7,
+          21.35
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "selected_to_ig",
+      "points": [
+        [
+          15.2,
+          18.1
+        ],
+        [
+          15.2,
+          17.28
+        ],
+        [
+          6.2,
+          17.28
+        ],
+        [
+          6.2,
+          16.35
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "train_to_candidate",
+      "points": [
+        [
+          8.4,
+          15.35
+        ],
+        [
+          9,
+          15.35
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "candidate_to_gain",
+      "points": [
+        [
+          12.6,
+          15.35
+        ],
+        [
+          13.2,
+          15.35
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "gain_to_stop",
+      "points": [
+        [
+          15,
+          14.4
+        ],
+        [
+          15,
+          12.65
+        ],
+        [
+          12.9,
+          12.65
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "stop_yes",
+      "points": [
+        [
+          9.25,
+          12.65
+        ],
+        [
+          8.4,
+          12.65
+        ]
+      ],
+      "type": "flow",
+      "label": "Yes"
+    },
+    {
+      "id": "stop_no",
+      "points": [
+        [
+          11.08,
+          13.65
+        ],
+        [
+          11.08,
+          14.4
+        ]
+      ],
+      "type": "flow",
+      "label": "No"
+    },
+    {
+      "id": "bounds_to_rules",
+      "points": [
+        [
+          6.6,
+          11.65
+        ],
+        [
+          6.6,
+          10.8
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "rules_to_init",
+      "points": [
+        [
+          8.8,
+          10.1
+        ],
+        [
+          9.35,
+          10.1
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "init_to_cma",
+      "points": [
+        [
+          12.75,
+          10.1
+        ],
+        [
+          13.3,
+          10.1
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "training_to_inner",
+      "points": [
+        [
+          4.8,
+          19.0
+        ],
+        [
+          4.2,
+          19.0
+        ],
+        [
+          4.2,
+          8.1
+        ],
+        [
+          4.8,
+          8.1
+        ]
+      ],
+      "type": "training-update",
+      "label": null
+    },
+    {
+      "id": "inner_to_final",
+      "points": [
+        [
+          10.45,
+          8.1
+        ],
+        [
+          11.1,
+          8.1
+        ]
+      ],
+      "type": "training-update",
+      "label": null
+    },
+    {
+      "id": "cma_to_final",
+      "points": [
+        [
+          15.15,
+          9.4
+        ],
+        [
+          15.15,
+          8.85
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "fit_to_freeze",
+      "points": [
+        [
+          14.05,
+          7.35
+        ],
+        [
+          14.05,
+          6.4
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "inferflow0",
+      "points": [
+        [
+          8.5,
+          4.225
+        ],
+        [
+          9.05,
+          4.225
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "inferflow1",
+      "points": [
+        [
+          12.75,
+          4.225
+        ],
+        [
+          13.3,
+          4.225
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "er_to_score",
+      "points": [
+        [
+          15.15,
+          3.6
+        ],
+        [
+          15.15,
+          2.95
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    },
+    {
+      "id": "score_to_metrics",
+      "points": [
+        [
+          10.9,
+          2.15
+        ],
+        [
+          10.9,
+          1.6
+        ]
+      ],
+      "type": "flow",
+      "label": null
+    }
+  ],
+  "original_reference": "historical_workspace\\tmp\\reading\\image14.png",
+  "method_source": "historical_workspace\\补实验\\方法图1至4核对记录_20261010\\README.md",
+  "adapter": "original-layout matplotlib vector reconstruction",
+  "reference_search": "figure_workflow references schematic; original manuscript layout prioritized"
+}

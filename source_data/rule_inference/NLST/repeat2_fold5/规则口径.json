@@ -1,0 +1,18 @@
+{
+  "rule_n": 58,
+  "parameter_coordinates": 232,
+  "attributes": [
+    "index_perpendicular_diameter_mm",
+    "age",
+    "index_long_diameter_mm",
+    "index_margin_level_1",
+    "baseline_nodule_count",
+    "cigsmok",
+    "index_lobe_level_3"
+  ],
+  "training_n": 1000,
+  "hard_support_sum": 7000,
+  "interval_membership": "inclusive first lower endpoint; shared boundary assigned to preceding interval",
+  "soft_matching": "continuous midpoint beta/r/w interpolation with constant endpoint extension; categorical hard matching",
+  "model_parameters_unchanged": true
+}
