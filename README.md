@@ -46,12 +46,14 @@ See [full training instructions](全流程运行说明.md), [baseline and acquis
 | `config/`, `selection/` | Exact split membership and training choices |
 | `data/` | Processed inputs; source-specific rights are in DATA_AVAILABILITY.md |
 | `models/`, `predictions/`, `results/` | Frozen models, original predictions and results |
-| `figures/`, `tables/`, `source_data/` | Figures, tables and numerical source values |
+| `tables/`, `source_data/` | Tables and numerical source values |
 | `*_source_mapping.csv` | Relative mappings between artifacts and numerical sources |
 | `validation/` | Saved reconstruction and representative training checks |
 | `provenance/`, `docs/` | Source and methodological records |
 
 Historical source records may refer to the original development workspace; executable configurations use paths relative to this package. Figure and table labels will be aligned with the consolidated revised manuscript before the paper-linked archive version is finalized.
+
+Rendered figure files are not distributed through this repository. The entries in `figure_source_mapping.csv` keep the figure identifiers and source-value paths, without render paths; their `pdf`, `svg` and `png` columns record the relative path expected inside the authoring package. Requests for rendered figures should be directed to the corresponding author.
 
 ## Licenses and citation
 
