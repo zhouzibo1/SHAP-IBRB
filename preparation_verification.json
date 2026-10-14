@@ -8,7 +8,7 @@
   "files_in_manifest": 480,
   "figures_published": false,
   "published": true,
-  "permanent_identifiers_assigned": false,
+  "permanent_identifiers_assigned": true,
   "author_metadata_and_rights_pending": false,
   "manuscript_modified": false,
   "figure_source_mapping": 27,
@@ -32,8 +32,15 @@
   "author_metadata_completed": true,
   "code_license": "MIT",
   "nlst_license": "CC-BY-4.0",
+  "archive_record": {
+    "version_DOI": "10.5281/zenodo.23370453",
+    "concept_DOI": "10.5281/zenodo.23370452",
+    "record_url": "https://zenodo.org/records/23370453",
+    "github_release_tag": "1.0.1",
+    "source_commit": "7ce8f76ff5ce1316b502d5d19c5b3e0194e65979",
+    "zenodo_state": "done"
+  },
   "remaining_publication_fields": [
-    "archive DOI",
     "final manuscript numbering"
   ]
 }

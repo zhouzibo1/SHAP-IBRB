@@ -76,7 +76,9 @@
     "NLST_public_clinical": "CC-BY-4.0 verified at TCIA; attribution and changes supplied"
   },
   "repository_url": "https://github.com/zhouzibo1/SHAP-IBRB",
-  "archive_DOI": null,
+  "archive_DOI": "10.5281/zenodo.23370453",
+  "archive_concept_DOI": "10.5281/zenodo.23370452",
+  "archive_record_url": "https://zenodo.org/records/23370453",
   "description": "Frozen configurations, split members, fitted models, raw predictions, source values and reconstruction code for original benchmark and patient-level NLST analyses.",
   "keywords": [
     "belief rule base",

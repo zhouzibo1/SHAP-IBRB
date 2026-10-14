@@ -5,7 +5,7 @@ path,bytes,format
 acquire_data.py,5159,py
 AUTHORS.md,903,md
 build_nlst_cohort.py,7252,py
-CITATION.cff,1502,cff
+CITATION.cff,1534,cff
 config/baseline_reference.json,46893,json
 config/final_protocol.json,903,json
 config/nlst_models.json,480987,json
@@ -13,8 +13,8 @@ config/original_inner_reference.json,511692,json
 config/original_models.json,260233,json
 data/nlst.csv,287169,csv
 data/original.csv,350290,csv
-DATA_AVAILABILITY.md,3294,md
-data_availability_inventory.csv,1455,csv
+DATA_AVAILABILITY.md,3321,md
+data_availability_inventory.csv,1596,csv
 docs/analysis_data_metadata.json,444,json
 docs/nlst_schema.csv,568,csv
 docs/original_schema.csv,867,csv
@@ -190,7 +190,7 @@ predictions/original/repeat2_fold2.csv,32661,csv
 predictions/original/repeat2_fold3.csv,32636,csv
 predictions/original/repeat2_fold4.csv,32514,csv
 predictions/original/repeat2_fold5.csv,32551,csv
-preparation_verification.json,1412,json
+preparation_verification.json,1702,json
 provenance/nlst_cohort/dictionary_idc_ctab_idc-20210527.txt,7265,txt
 provenance/nlst_cohort/dictionary_idc_ctabc_idc-20210527.txt,6687,txt
 provenance/nlst_cohort/dictionary_idc_prsn_idc-20210527.txt,13188,txt
@@ -218,8 +218,8 @@ provenance/source_scripts/重复五折与内层优化.py,18833,py
 provenance/原基准运行前方案.json,1187,json
 provenance/运行前最终配置.json,2227,json
 provenance/预先固定成员.json,349097,json
-README.md,5736,md
-release_metadata_draft.json,3323,json
+README.md,5763,md
+release_metadata_draft.json,3461,json
 reproduce.py,9694,py
 requirements-baselines.txt,145,txt
 requirements-data.txt,36,txt
@@ -475,7 +475,7 @@ verification_output/original_220_metrics.csv,40037,csv
 verification_output/original_mean_sd.csv,2922,csv
 verification_output/restored_model_metrics.csv,4277,csv
 verification_output/verification.json,392,json
-仓库与引用安排.md,810,md
+仓库与引用安排.md,1026,md
 全流程运行说明.md,3088,md
-发布待落实字段.csv,709,csv
+发布待落实字段.csv,704,csv
 基线训练与数据获取说明.md,5025,md

@@ -5,6 +5,7 @@ type: software
 version: "1.0.0"
 license: MIT
 repository-code: "https://github.com/zhouzibo1/SHAP-IBRB"
+doi: "10.5281/zenodo.23370453"
 authors:
   - family-names: "Li"
     given-names: "Shaohua"

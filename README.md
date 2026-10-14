@@ -67,4 +67,4 @@ Rendered figure files are not distributed through this repository. The entries i
 - NLST public clinical subset: CC BY 4.0 with the attribution and modification notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 - Original benchmark: source description and access instructions in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
 
-[CITATION.cff](CITATION.cff) contains software authorship. The repository is published at https://github.com/zhouzibo1/SHAP-IBRB ; the archived version DOI will be added once the corresponding Zenodo record exists. The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .
+[CITATION.cff](CITATION.cff) contains software authorship. The materials are published at https://github.com/zhouzibo1/SHAP-IBRB and archived at https://doi.org/10.5281/zenodo.23370453 (all versions: https://doi.org/10.5281/zenodo.23370452). The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .
