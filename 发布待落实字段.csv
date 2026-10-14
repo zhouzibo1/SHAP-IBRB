@@ -1,9 +1,0 @@
-field,current_status,action
-creators_and_affiliations,completed_from_original_manuscript,AUTHORS.md; CITATION.cff
-code_licence,completed,MIT; LICENSE
-generated_material_licence,completed_for_author_created_outputs,CC-BY-4.0; THIRD_PARTY_NOTICES.md
-NLST_public_clinical_rights,completed,CC-BY-4.0; attribution and changes supplied
-ethics_statement,updated_from_verified_sources_and_author_confirmation,DATA_AVAILABILITY.md
-repository_url,completed,https://github.com/zhouzibo1/SHAP-IBRB
-version_DOI,completed,10.5281/zenodo.23370453; all versions 10.5281/zenodo.23370452
-manuscript_figure_table_alignment,pending_manuscript_consolidation,align final numbering before paper-linked archive release
