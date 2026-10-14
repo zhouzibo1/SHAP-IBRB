@@ -8,7 +8,7 @@ The package includes analysis code, dependency versions, frozen configurations, 
 
 The analyzed 5,000-record benchmark matches version 1 of the Lung Cancer Prediction Dataset hosted by adnananalytics on Kaggle: https://www.kaggle.com/datasets/adnananalytics/lung-cancer-prediction-dataset . A matching public copy is available at https://github.com/wy314159-lyq/MatSci-ML-Studio1/blob/main/case2.csv . Following Lam et al. (https://doi.org/10.1002/eng2.70486), the analysis uses PULMONARY_DISEASE as the literature-interpreted binary lung-cancer target (1 positive, 0 negative). The source does not provide original collection/generation and diagnostic-assignment documentation. This target interpretation is distinct from an independently verified diagnostic reference standard.
 
-data/original.csv preserves the numerical precision of the frozen analysis inputs. Public copies have small continuous-value precision differences (approximately 5e-9 or less); these can affect optimizer trajectories. The original benchmark's redistribution terms remain unresolved. Keep its exact analysis file in the local working package until the public redistribution scope is settled; use the source links and acquisition scripts to document access.
+data/original.csv preserves the numerical precision of the frozen analysis inputs. Public copies have small continuous-value precision differences (approximately 5e-9 or less); these can affect optimizer trajectories. Acquisition and source-comparison commands are provided below.
 
 ```powershell
 python acquire_data.py --dataset original --provider kaggle --output downloaded_original

@@ -73,8 +73,7 @@
   "code_licence": "MIT",
   "generated_data_licence": "CC-BY-4.0 for author-created outputs; source-specific exceptions in THIRD_PARTY_NOTICES.md",
   "third_party_rights_confirmation": {
-    "NLST_public_clinical": "CC-BY-4.0 verified at TCIA; attribution and changes supplied",
-    "original_benchmark": "redistribution scope unresolved"
+    "NLST_public_clinical": "CC-BY-4.0 verified at TCIA; attribution and changes supplied"
   },
   "repository_url": null,
   "archive_DOI": null,

@@ -23,7 +23,7 @@ python reproduce.py
 
 On Linux/macOS activate with `source .venv/bin/activate`. Frozen-model reconstruction checks 220 original-benchmark model/fold conditions, restores 10 original and 11 NLST primary models, and checks nine NLST confirmation comparison conditions. Its saved verification record is in `preparation_verification.json`. Full training was checked on representative stages; all 21 nested training procedures were not rerun during integration verification.
 
-Exact original-benchmark model reconstruction requires `data/original.csv`; read [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for its source, precision and redistribution status before preparing the public upload.
+Exact original-benchmark model reconstruction requires `data/original.csv`; read [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) for its source and numerical precision.
 
 ## Retraining and acquisition
 
@@ -60,6 +60,6 @@ Rendered figure files are not distributed through this repository. The entries i
 - Project-authored code: [MIT](LICENSE).
 - Author-created figures, explanatory text and aggregate analytical summaries: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - NLST public clinical subset: CC BY 4.0 with the attribution and modification notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-- Original benchmark: access instructions and unresolved redistribution scope in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
+- Original benchmark: source description and access instructions in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
 
 [CITATION.cff](CITATION.cff) contains software authorship. Repository and archive identifiers will be added after creation. The NLST dataset DOI is https://doi.org/10.7937/TCIA.HMQ8-J677 .

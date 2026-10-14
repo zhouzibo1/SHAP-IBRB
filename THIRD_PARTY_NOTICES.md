@@ -26,4 +26,4 @@ This license statement concerns the public clinical subset used here. The full C
 
 Matched public source: https://www.kaggle.com/datasets/adnananalytics/lung-cancer-prediction-dataset (version 1). Matching literature-associated copy: https://github.com/wy314159-lyq/MatSci-ML-Studio1/blob/main/case2.csv .
 
-An explicit redistribution license has not been established for this benchmark. The authors' MIT and CC BY grants do not grant redistribution rights to data/original.csv or third-party input records reproduced elsewhere in the package. Resolve redistribution scope before publicly uploading those records. Acquisition and source-comparison commands are provided in DATA_AVAILABILITY.md and the acquisition guide.
+The benchmark is reused as a public source. Following Lam et al. (https://doi.org/10.1002/eng2.70486), `PULMONARY_DISEASE` is analysed as a literature-interpreted binary lung-cancer target (1 positive, 0 negative). Acquisition and source-comparison commands are provided in DATA_AVAILABILITY.md and the acquisition guide.
